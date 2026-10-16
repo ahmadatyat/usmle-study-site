@@ -4,4 +4,4 @@ Generated website files only; private source history and learner data are not in
 
 Enable free GitHub Pages: Settings > Pages > Deploy from a branch > main > /(root) > Save.
 
-Guest progress saves in browser storage. Account routes require Supabase configuration, SQL migrations and live verification; see the private source setup guide. Team codes share schedules, not live member progress.
+Guest progress saves in browser storage. Account routes require Supabase configuration, SQL migrations and live verification; see the private source setup guide. Team codes share schedules and member-reported task-count summaries. Private notes, emails and detailed progress remain account-isolated.
