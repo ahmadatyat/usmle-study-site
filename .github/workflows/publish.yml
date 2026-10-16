@@ -19,6 +19,20 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
+      - name: Verify complete release files
+        run: |
+          node --input-type=module <<'NODE'
+          import { readFileSync } from 'node:fs';
+          import { createHash } from 'node:crypto';
+          const manifest = JSON.parse(readFileSync('release-integrity.json', 'utf8'));
+          if (manifest.version !== 1 || !Object.keys(manifest.files ?? {}).length) throw new Error('Missing release integrity manifest');
+          for (const [path, expected] of Object.entries(manifest.files)) {
+            if (path.startsWith('/') || path.split('/').includes('..')) throw new Error('Invalid release path');
+            const data = readFileSync(path);
+            if (data.length !== expected.bytes || createHash('sha256').update(data).digest('hex') !== expected.sha256) throw new Error('Incomplete release asset: ' + path);
+          }
+          console.log('All release assets match the build.');
+          NODE
       - name: Clear obsolete blocked releases
         uses: actions/github-script@v7
         with:
