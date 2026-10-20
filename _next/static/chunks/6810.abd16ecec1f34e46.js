@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[6810],{6810:(t,e,i)=>{i.r(e),i.d(e,{default:()=>c});var s=i(1228),a=i(4819);function c(t){let{avatar:e,size:i,alt:c=""}=t;return(0,s.jsx)("img",{src:(0,a.G)(e),alt:c,width:i,height:i,style:{display:"block",width:"100%",height:"100%",aspectRatio:"1",borderRadius:"50%",objectFit:"cover"}})}}}]);
