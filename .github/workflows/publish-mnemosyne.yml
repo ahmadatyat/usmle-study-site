@@ -1,0 +1,34 @@
+name: Publish verified Mnemosyne archive
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: mnemosyne-v3-archive
+  cancel-in-progress: false
+jobs:
+  archive:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Download and verify the original creator package
+        run: |
+          python -u - <<'PY'
+          import hashlib, pathlib, urllib.request
+          url = 'https://drive.usercontent.google.com/download?id=18RsBsDucrwQxAZxrQ--9uzVx3DEyAnBN&export=download&authuser=0&confirm=t'
+          expected = '657a456827df1a4b74a4624bcbc685fd925de109fc88e081aeba1e0a85703772'
+          path = pathlib.Path('Mnemosyne-v3.0.apkg')
+          digest = hashlib.sha256()
+          with urllib.request.urlopen(url, timeout=120) as response, path.open('wb') as output:
+              while block := response.read(4 * 1024 * 1024):
+                  output.write(block)
+                  digest.update(block)
+          if path.stat().st_size != 882442617 or digest.hexdigest() != expected:
+              raise RuntimeError('Creator package integrity check failed; nothing was published')
+          pathlib.Path('Mnemosyne-v3.0.apkg.sha256').write_text(expected + '  Mnemosyne-v3.0.apkg\n')
+          print('Original package size and SHA-256 verified.')
+          PY
+      - name: Attach the verified deck to its GitHub Release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh release upload mnemosyne-v3.0 Mnemosyne-v3.0.apkg Mnemosyne-v3.0.apkg.sha256 --clobber --repo "$GITHUB_REPOSITORY"
