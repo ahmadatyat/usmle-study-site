@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[7485],{7485:(e,a,t)=>{t.r(a),t.d(a,{default:()=>d});var l=t(1228),u=t(1369),n=t(4141),s=t(4039);function d(){let e=(0,s.W)();return(0,l.jsx)(u.AppShell,{activeRoute:"calendar",title:"Study plan",children:(0,l.jsx)(n.L,{onSaved:()=>e.push("/dashboard")})})}}}]);
