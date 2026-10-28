@@ -1,0 +1,69 @@
+{
+  "sourceOrigin": "https://weworldapp.com",
+  "extractedAt": "2026-10-28T21:34:02.870655+00:00",
+  "expectedCount": 199,
+  "scope": {
+    "system": "Endocrine, Diabetes & Metabolism",
+    "expectedQuestionCount": 199,
+    "countEvidence": {
+      "endpoint": "/api/system-stats-by-subject",
+      "qbankid": 1,
+      "source": "All questions",
+      "system": "Endocrine, Diabetes & Metabolism",
+      "count": 199,
+      "categories": [
+        {
+          "name": "Adrenal disorders",
+          "count": 11
+        },
+        {
+          "name": "Congenital and developmental anomalies",
+          "count": 19
+        },
+        {
+          "name": "Diabetes mellitus",
+          "count": 49
+        },
+        {
+          "name": "Endocrine tumors",
+          "count": 26
+        },
+        {
+          "name": "Hypothalamus and pituitary disorders",
+          "count": 13
+        },
+        {
+          "name": "Miscellaneous",
+          "count": 10
+        },
+        {
+          "name": "Normal structure and function of endocrine glands",
+          "count": 3
+        },
+        {
+          "name": "Obesity and dyslipidemia",
+          "count": 13
+        },
+        {
+          "name": "Reproductive endocrinology",
+          "count": 21
+        },
+        {
+          "name": "Thyroid disorders",
+          "count": 34
+        }
+      ]
+    }
+  },
+  "sourceBankExpectedCount": 3641,
+  "validQuestionCount": 199,
+  "mediaCount": 184,
+  "errors": [],
+  "selection": {
+    "system": "Endocrine",
+    "matchPolicy": "source-system-or-taxonomy-label",
+    "selectedQuestionCount": 199,
+    "excludedQuestionCount": 0,
+    "publishedMediaCount": 184
+  }
+}
