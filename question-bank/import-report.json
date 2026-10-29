@@ -1,994 +1,853 @@
 {
   "sourceOrigin": "https://weworldapp.com",
-  "extractedAt": "2026-10-29T03:48:10.742487+00:00",
-  "expectedCount": 999,
-  "scope": {
-    "kind": "categories",
-    "expectedQuestionCount": 999,
-    "countEvidence": {
-      "endpoint": "/api/system-stats-by-subject",
-      "source": "All questions",
-      "qbankid": 1,
-      "systems": [
-        {
-          "count": 108,
-          "categories": [
-            {
-              "name": "Anaphylaxis and allergic reactions",
-              "count": 19
-            },
-            {
-              "name": "Autoimmune diseases",
-              "count": 13
-            },
-            {
-              "name": "Immune deficiencies",
-              "count": 23
-            },
-            {
-              "name": "Miscellaneous",
-              "count": 21
-            },
-            {
-              "name": "Principles of immunology",
-              "count": 25
-            },
-            {
-              "name": "Transplant medicine",
-              "count": 7
-            }
-          ],
-          "name": "Allergy & Immunology"
-        },
-        {
-          "count": 65,
-          "categories": [
-            {
-              "name": "Amino acids, proteins, and enzymes",
-              "count": 20
-            },
-            {
-              "name": "Bioenergetics and carbohydrate metabolism",
-              "count": 21
-            },
-            {
-              "name": "Cell and molecular biology",
-              "count": 17
-            },
-            {
-              "name": "Lipid metabolism",
-              "count": 3
-            },
-            {
-              "name": "Miscellaneous",
-              "count": 4
-            }
-          ],
-          "name": "Biochemistry (General Principles)"
-        },
-        {
-          "count": 120,
-          "categories": [
-            {
-              "name": "Epidemiology and population health",
-              "count": 31
-            },
-            {
-              "name": "Measures and distribution of data",
-              "count": 11
-            },
-            {
-              "name": "Miscellaneous",
-              "count": 1
-            },
-            {
-              "name": "Probability and principles of testing",
-              "count": 23
-            },
-            {
-              "name": "Study design and interpretation",
-              "count": 54
-            }
-          ],
-          "name": "Biostatistics & Epidemiology"
-        },
-        {
-          "count": 413,
-          "categories": [
-            {
-              "name": "Aortic and peripheral artery diseases",
-              "count": 37
-            },
-            {
-              "name": "Cardiac arrhythmias",
-              "count": 50
-            },
-            {
-              "name": "Cardiovascular drugs",
-              "count": 16
-            },
-            {
-              "name": "Congenital heart disease",
-              "count": 32
-            },
-            {
-              "name": "Coronary heart disease",
-              "count": 47
-            },
-            {
-              "name": "Heart failure and shock",
-              "count": 44
-            },
-            {
-              "name": "Hypertension",
-              "count": 24
-            },
-            {
-              "name": "Miscellaneous",
-              "count": 10
-            },
-            {
-              "name": "Myopericardial diseases",
-              "count": 52
-            },
-            {
-              "name": "Normal structure and function of the cardiovascular system",
-              "count": 55
-            },
-            {
-              "name": "Valvular heart diseases",
-              "count": 46
-            }
-          ],
-          "name": "Cardiovascular System"
-        },
-        {
-          "count": 99,
-          "categories": [
-            {
-              "name": "Disorders of epidermal appendages",
-              "count": 11
-            },
-            {
-              "name": "Inflammatory dermatoses and bullous diseases",
-              "count": 28
-            },
-            {
-              "name": "Miscellaneous",
-              "count": 4
-            },
-            {
-              "name": "Normal structure and function of skin",
-              "count": 6
-            },
-            {
-              "name": "Skin and soft tissue infections",
-              "count": 18
-            },
-            {
-              "name": "Skin tumors and tumor-like lesions",
-              "count": 32
-            }
-          ],
-          "name": "Dermatology"
-        },
-        {
-          "count": 40,
-          "categories": [
-            {
-              "name": "Disorders of the ear, nose, and throat",
-              "count": 40
-            }
-          ],
-          "name": "Ear, Nose & Throat (ENT)"
-        },
-        {
-          "count": 199,
-          "categories": [
-            {
-              "name": "Adrenal disorders",
-              "count": 11
-            },
-            {
-              "name": "Congenital and developmental anomalies",
-              "count": 19
-            },
-            {
-              "name": "Diabetes mellitus",
-              "count": 49
-            },
-            {
-              "name": "Endocrine tumors",
-              "count": 26
-            },
-            {
-              "name": "Hypothalamus and pituitary disorders",
-              "count": 13
-            },
-            {
-              "name": "Miscellaneous",
-              "count": 10
-            },
-            {
-              "name": "Normal structure and function of endocrine glands",
-              "count": 3
-            },
-            {
-              "name": "Obesity and dyslipidemia",
-              "count": 13
-            },
-            {
-              "name": "Reproductive endocrinology",
-              "count": 21
-            },
-            {
-              "name": "Thyroid disorders",
-              "count": 34
-            }
-          ],
-          "name": "Endocrine, Diabetes & Metabolism"
-        },
-        {
-          "count": 79,
-          "categories": [
-            {
-              "name": "Breast disorders",
-              "count": 7
-            },
-            {
-              "name": "Congenital and developmental anomalies",
-              "count": 10
-            },
-            {
-              "name": "Genital tract tumors and tumor-like lesions",
-              "count": 26
-            },
-            {
-              "name": "Genitourinary tract infections",
-              "count": 13
-            },
-            {
-              "name": "Menstrual disorders and contraception",
-              "count": 4
-            },
-            {
-              "name": "Miscellaneous",
-              "count": 8
-            },
-            {
-              "name": "Normal structure and function of the female reproductive system and breast",
-              "count": 11
-            }
-          ],
-          "name": "Female Reproductive System & Breast"
-        },
-        {
-          "count": 306,
-          "categories": [
-            {
-              "name": "Biliary tract disorders",
-              "count": 17
-            },
-            {
-              "name": "Congenital and developmental anomalies",
-              "count": 21
-            },
-            {
-              "name": "Disorders of nutrition",
-              "count": 18
-            },
-            {
-              "name": "Gastroesophageal disorders",
-              "count": 45
-            },
-            {
-              "name": "Hepatic disorders",
-              "count": 59
-            },
-            {
-              "name": "Intestinal and colorectal disorders",
-              "count": 66
-            },
-            {
-              "name": "Miscellaneous",
-              "count": 14
-            },
-            {
-              "name": "Normal structure and function of the GI tract",
-              "count": 22
-            },
-            {
-              "name": "Pancreatic disorders",
-              "count": 17
-            },
-            {
-              "name": "Tumors of the GI tract",
-              "count": 27
-            }
-          ],
-          "name": "Gastrointestinal & Nutrition"
-        },
-        {
-          "count": 61,
-          "categories": [
-            {
-              "name": "Clinical genetics",
-              "count": 20
-            },
-            {
-              "name": "DNA structure, replication, and repair",
-              "count": 18
-            },
-            {
-              "name": "Gene expression and regulation",
-              "count": 7
-            },
-            {
-              "name": "Miscellaneous",
-              "count": 2
-            },
-            {
-              "name": "Protein synthesis",
-              "count": 1
-            },
-            {
-              "name": "RNA structure, synthesis, and processing",
-              "count": 13
-            }
-          ],
-          "name": "Genetics (General Principles)"
-        },
-        {
-          "count": 229,
-          "categories": [
-            {
-              "name": "Hemostasis and thrombosis",
-              "count": 36
-            },
-            {
-              "name": "Miscellaneous",
-              "count": 7
-            },
-            {
-              "name": "Normal hematologic structure and function",
-              "count": 10
-            },
-            {
-              "name": "Plasma cell disorders",
-              "count": 2
-            },
-            {
-              "name": "Platelet disorders",
-              "count": 15
-            },
-            {
-              "name": "Principles of oncology",
-              "count": 22
-            },
-            {
-              "name": "Red blood cell disorders",
-              "count": 85
-            },
-            {
-              "name": "Transfusion medicine",
-              "count": 4
-            },
-            {
-              "name": "White blood cell disorders",
-              "count": 48
-            }
-          ],
-          "name": "Hematology & Oncology"
-        },
-        {
-          "count": 271,
-          "categories": [
-            {
-              "name": "Antimicrobial drugs",
-              "count": 23
-            },
-            {
-              "name": "Bacterial infections",
-              "count": 112
-            },
-            {
-              "name": "Fungal infections",
-              "count": 12
-            },
-            {
-              "name": "HIV and sexually transmitted infections",
-              "count": 42
-            },
-            {
-              "name": "Infection control",
-              "count": 6
-            },
-            {
-              "name": "Miscellaneous",
-              "count": 7
-            },
-            {
-              "name": "Parasitic and helminthic infections",
-              "count": 26
-            },
-            {
-              "name": "Viral infections",
-              "count": 43
-            }
-          ],
-          "name": "Infectious Diseases"
-        },
-        {
-          "count": 52,
-          "categories": [
-            {
-              "name": "Disorders of the male reproductive system",
-              "count": 48
-            },
-            {
-              "name": "Normal structure and function of the male reproductive system",
-              "count": 4
-            }
-          ],
-          "name": "Male Reproductive System"
-        },
-        {
-          "count": 30,
-          "categories": [
-            {
-              "name": "Bacteriology",
-              "count": 15
-            },
-            {
-              "name": "Miscellaneous",
-              "count": 2
-            },
-            {
-              "name": "Mycology",
-              "count": 2
-            },
-            {
-              "name": "Parasitology",
-              "count": 1
-            },
-            {
-              "name": "Virology",
-              "count": 10
-            }
-          ],
-          "name": "Microbiology (General Principles)"
-        },
-        {
-          "count": 24,
-          "categories": [
-            {
-              "name": "Miscellaneous",
-              "count": 24
-            }
-          ],
-          "name": "Miscellaneous"
-        },
-        {
-          "count": 399,
-          "categories": [
-            {
-              "name": "Anesthesia",
-              "count": 12
-            },
-            {
-              "name": "CNS infections",
-              "count": 30
-            },
-            {
-              "name": "Cerebrovascular disease",
-              "count": 62
-            },
-            {
-              "name": "Congenital and developmental anomalies",
-              "count": 34
-            },
-            {
-              "name": "Demyelinating diseases",
-              "count": 9
-            },
-            {
-              "name": "Disorders of peripheral nerves and muscles",
-              "count": 69
-            },
-            {
-              "name": "Headache",
-              "count": 12
-            },
-            {
-              "name": "Hydrocephalus",
-              "count": 5
-            },
-            {
-              "name": "Miscellaneous",
-              "count": 18
-            },
-            {
-              "name": "Neurodegenerative disorders and dementias",
-              "count": 34
-            },
-            {
-              "name": "Normal structure and function of the nervous system",
-              "count": 48
-            },
-            {
-              "name": "Seizures and epilepsy",
-              "count": 19
-            },
-            {
-              "name": "Sleep disorders",
-              "count": 8
-            },
-            {
-              "name": "Spinal cord disorders",
-              "count": 14
-            },
-            {
-              "name": "Traumatic brain injuries",
-              "count": 8
-            },
-            {
-              "name": "Tumors of the nervous system",
-              "count": 17
-            }
-          ],
-          "name": "Nervous System"
-        },
-        {
-          "count": 30,
-          "categories": [
-            {
-              "name": "Disorders of the eye and associated structures",
-              "count": 27
-            },
-            {
-              "name": "Normal structure and function of the eye and associated structures",
-              "count": 3
-            }
-          ],
-          "name": "Ophthalmology"
-        },
-        {
-          "count": 39,
-          "categories": [
-            {
-              "name": "Cellular pathology",
-              "count": 6
-            },
-            {
-              "name": "Inflammation and repair",
-              "count": 2
-            },
-            {
-              "name": "Neoplasia",
-              "count": 31
-            }
-          ],
-          "name": "Pathology (General Principles)"
-        },
-        {
-          "count": 45,
-          "categories": [
-            {
-              "name": "Drug metabolism and toxicity",
-              "count": 18
-            },
-            {
-              "name": "Drug receptors and pharmacodynamics",
-              "count": 5
-            },
-            {
-              "name": "Miscellaneous",
-              "count": 8
-            },
-            {
-              "name": "Pharmacokinetics",
-              "count": 14
-            }
-          ],
-          "name": "Pharmacology (General Principles)"
-        },
-        {
-          "count": 32,
-          "categories": [
-            {
-              "name": "Environmental exposure",
-              "count": 7
-            },
-            {
-              "name": "Toxicology",
-              "count": 25
-            }
-          ],
-          "name": "Poisoning & Environmental Exposure"
-        },
-        {
-          "count": 59,
-          "categories": [
-            {
-              "name": "Disorders of pregnancy, childbirth, and puerperium",
-              "count": 44
-            },
-            {
-              "name": "Normal pregnancy, childbirth, and puerperium",
-              "count": 15
-            }
-          ],
-          "name": "Pregnancy, Childbirth & Puerperium"
-        },
-        {
-          "count": 179,
-          "categories": [
-            {
-              "name": "Anxiety and trauma-related disorders",
-              "count": 25
-            },
-            {
-              "name": "Eating disorders",
-              "count": 8
-            },
-            {
-              "name": "Miscellaneous",
-              "count": 18
-            },
-            {
-              "name": "Mood disorders",
-              "count": 33
-            },
-            {
-              "name": "Neurodevelopmental disorders",
-              "count": 17
-            },
-            {
-              "name": "Normal behavior and development",
-              "count": 18
-            },
-            {
-              "name": "Personality disorders",
-              "count": 7
-            },
-            {
-              "name": "Psychotic disorders",
-              "count": 26
-            },
-            {
-              "name": "Somatoform disorders",
-              "count": 2
-            },
-            {
-              "name": "Substance use disorders",
-              "count": 25
-            }
-          ],
-          "name": "PsychiatricandBehavioral"
-        },
-        {
-          "count": 265,
-          "categories": [
-            {
-              "name": "Congenital and developmental anomalies",
-              "count": 9
-            },
-            {
-              "name": "Critical care medicine",
-              "count": 40
-            },
-            {
-              "name": "Interstitial lung disease",
-              "count": 26
-            },
-            {
-              "name": "Lung cancer",
-              "count": 10
-            },
-            {
-              "name": "Miscellaneous",
-              "count": 21
-            },
-            {
-              "name": "Normal pulmonary structure and function",
-              "count": 25
-            },
-            {
-              "name": "Obstructive lung disease",
-              "count": 48
-            },
-            {
-              "name": "Pulmonary infections",
-              "count": 62
-            },
-            {
-              "name": "Pulmonary vascular disease",
-              "count": 23
-            },
-            {
-              "name": "Sleep disorders",
-              "count": 1
-            }
-          ],
-          "name": "Pulmonary & Critical Care"
-        },
-        {
-          "count": 224,
-          "categories": [
-            {
-              "name": "Acute kidney injury",
-              "count": 22
-            },
-            {
-              "name": "Bone metabolism",
-              "count": 8
-            },
-            {
-              "name": "Chronic kidney disease",
-              "count": 14
-            },
-            {
-              "name": "Congenital and developmental anomalies",
-              "count": 21
-            },
-            {
-              "name": "Cystic kidney diseases",
-              "count": 3
-            },
-            {
-              "name": "Diabetes insipidus",
-              "count": 8
-            },
-            {
-              "name": "Fluid, electrolytes, and acid-base",
-              "count": 38
-            },
-            {
-              "name": "Glomerular diseases",
-              "count": 39
-            },
-            {
-              "name": "Miscellaneous",
-              "count": 14
-            },
-            {
-              "name": "Neoplasms of the kidneys and urinary tract",
-              "count": 12
-            },
-            {
-              "name": "Nephrolithiasis and urinary tract obstruction",
-              "count": 16
-            },
-            {
-              "name": "Normal structure and function of the kidneys and urinary system",
-              "count": 24
-            },
-            {
-              "name": "Urinary incontinence",
-              "count": 5
-            }
-          ],
-          "name": "Renal, Urinary Systems & Electrolytes"
-        },
-        {
-          "count": 165,
-          "categories": [
-            {
-              "name": "Arthritis and spondyloarthropathies",
-              "count": 38
-            },
-            {
-              "name": "Autoimmune disorders and vasculitides",
-              "count": 25
-            },
-            {
-              "name": "Bone tumors and tumor-like lesions",
-              "count": 5
-            },
-            {
-              "name": "Bone/joint injuries and infections",
-              "count": 34
-            },
-            {
-              "name": "Congenital and developmental anomalies",
-              "count": 9
-            },
-            {
-              "name": "Metabolic bone disorders",
-              "count": 14
-            },
-            {
-              "name": "Miscellaneous",
-              "count": 5
-            },
-            {
-              "name": "Normal structure and function of the musculoskeletal system",
-              "count": 31
-            },
-            {
-              "name": "Spinal disorders and back pain",
-              "count": 4
-            }
-          ],
-          "name": "Rheumatology/Orthopedics & Sports"
-        },
-        {
-          "count": 108,
-          "categories": [
-            {
-              "name": "Communication and interpersonal skills",
-              "count": 62
-            },
-            {
-              "name": "Healthcare policy and economics",
-              "count": 9
-            },
-            {
-              "name": "Medical ethics and jurisprudence",
-              "count": 20
-            },
-            {
-              "name": "Miscellaneous",
-              "count": 3
-            },
-            {
-              "name": "Patient safety",
-              "count": 9
-            },
-            {
-              "name": "System based-practice and quality improvement",
-              "count": 5
-            }
-          ],
-          "name": "Social Sciences"
-        }
-      ],
-      "selectedCategories": [
-        {
-          "system": "Biostatistics & Epidemiology",
-          "name": "Epidemiology and population health",
-          "count": 31
-        },
-        {
-          "system": "Cardiovascular System",
-          "name": "Aortic and peripheral artery diseases",
-          "count": 37
-        },
-        {
-          "system": "Cardiovascular System",
-          "name": "Normal structure and function of the cardiovascular system",
-          "count": 55
-        },
-        {
-          "system": "Ear, Nose & Throat (ENT)",
-          "name": "Disorders of the ear, nose, and throat",
-          "count": 40
-        },
-        {
-          "system": "Endocrine, Diabetes & Metabolism",
-          "name": "Adrenal disorders",
-          "count": 11
-        },
-        {
-          "system": "Endocrine, Diabetes & Metabolism",
-          "name": "Congenital and developmental anomalies",
-          "count": 19
-        },
-        {
-          "system": "Endocrine, Diabetes & Metabolism",
-          "name": "Diabetes mellitus",
-          "count": 49
-        },
-        {
-          "system": "Endocrine, Diabetes & Metabolism",
-          "name": "Endocrine tumors",
-          "count": 26
-        },
-        {
-          "system": "Endocrine, Diabetes & Metabolism",
-          "name": "Hypothalamus and pituitary disorders",
-          "count": 13
-        },
-        {
-          "system": "Endocrine, Diabetes & Metabolism",
-          "name": "Miscellaneous",
-          "count": 10
-        },
-        {
-          "system": "Endocrine, Diabetes & Metabolism",
-          "name": "Normal structure and function of endocrine glands",
-          "count": 3
-        },
-        {
-          "system": "Endocrine, Diabetes & Metabolism",
-          "name": "Obesity and dyslipidemia",
-          "count": 13
-        },
-        {
-          "system": "Endocrine, Diabetes & Metabolism",
-          "name": "Reproductive endocrinology",
-          "count": 21
-        },
-        {
-          "system": "Endocrine, Diabetes & Metabolism",
-          "name": "Thyroid disorders",
-          "count": 34
-        },
-        {
-          "system": "Gastrointestinal & Nutrition",
-          "name": "Gastroesophageal disorders",
-          "count": 45
-        },
-        {
-          "system": "Gastrointestinal & Nutrition",
-          "name": "Hepatic disorders",
-          "count": 59
-        },
-        {
-          "system": "Gastrointestinal & Nutrition",
-          "name": "Intestinal and colorectal disorders",
-          "count": 66
-        },
-        {
-          "system": "Genetics (General Principles)",
-          "name": "Protein synthesis",
-          "count": 1
-        },
-        {
-          "system": "Hematology & Oncology",
-          "name": "Platelet disorders",
-          "count": 15
-        },
-        {
-          "system": "Hematology & Oncology",
-          "name": "Red blood cell disorders",
-          "count": 85
-        },
-        {
-          "system": "Microbiology (General Principles)",
-          "name": "Parasitology",
-          "count": 1
-        },
-        {
-          "system": "Nervous System",
-          "name": "Cerebrovascular disease",
-          "count": 62
-        },
-        {
-          "system": "Nervous System",
-          "name": "Disorders of peripheral nerves and muscles",
-          "count": 69
-        },
-        {
-          "system": "Nervous System",
-          "name": "Neurodegenerative disorders and dementias",
-          "count": 34
-        },
-        {
-          "system": "Pulmonary & Critical Care",
-          "name": "Pulmonary infections",
-          "count": 62
-        },
-        {
-          "system": "Renal, Urinary Systems & Electrolytes",
-          "name": "Fluid, electrolytes, and acid-base",
-          "count": 38
-        },
-        {
-          "system": "Rheumatology/Orthopedics & Sports",
-          "name": "Arthritis and spondyloarthropathies",
-          "count": 38
-        },
-        {
-          "system": "Social Sciences",
-          "name": "Communication and interpersonal skills",
-          "count": 62
-        }
-      ]
-    }
+  "extractedAt": "2026-10-29T08:00:42.946856+00:00",
+  "expectedCount": 3641,
+  "classification": {
+    "endpoint": "/api/system-stats-by-subject",
+    "qbankid": 1,
+    "source": "All questions",
+    "systems": [
+      {
+        "count": 108,
+        "categories": [
+          {
+            "name": "Anaphylaxis and allergic reactions",
+            "count": 19
+          },
+          {
+            "name": "Autoimmune diseases",
+            "count": 13
+          },
+          {
+            "name": "Immune deficiencies",
+            "count": 23
+          },
+          {
+            "name": "Miscellaneous",
+            "count": 21
+          },
+          {
+            "name": "Principles of immunology",
+            "count": 25
+          },
+          {
+            "name": "Transplant medicine",
+            "count": 7
+          }
+        ],
+        "name": "Allergy & Immunology"
+      },
+      {
+        "count": 65,
+        "categories": [
+          {
+            "name": "Amino acids, proteins, and enzymes",
+            "count": 20
+          },
+          {
+            "name": "Bioenergetics and carbohydrate metabolism",
+            "count": 21
+          },
+          {
+            "name": "Cell and molecular biology",
+            "count": 17
+          },
+          {
+            "name": "Lipid metabolism",
+            "count": 3
+          },
+          {
+            "name": "Miscellaneous",
+            "count": 4
+          }
+        ],
+        "name": "Biochemistry (General Principles)"
+      },
+      {
+        "count": 120,
+        "categories": [
+          {
+            "name": "Epidemiology and population health",
+            "count": 31
+          },
+          {
+            "name": "Measures and distribution of data",
+            "count": 11
+          },
+          {
+            "name": "Miscellaneous",
+            "count": 1
+          },
+          {
+            "name": "Probability and principles of testing",
+            "count": 23
+          },
+          {
+            "name": "Study design and interpretation",
+            "count": 54
+          }
+        ],
+        "name": "Biostatistics & Epidemiology"
+      },
+      {
+        "count": 413,
+        "categories": [
+          {
+            "name": "Aortic and peripheral artery diseases",
+            "count": 37
+          },
+          {
+            "name": "Cardiac arrhythmias",
+            "count": 50
+          },
+          {
+            "name": "Cardiovascular drugs",
+            "count": 16
+          },
+          {
+            "name": "Congenital heart disease",
+            "count": 32
+          },
+          {
+            "name": "Coronary heart disease",
+            "count": 47
+          },
+          {
+            "name": "Heart failure and shock",
+            "count": 44
+          },
+          {
+            "name": "Hypertension",
+            "count": 24
+          },
+          {
+            "name": "Miscellaneous",
+            "count": 10
+          },
+          {
+            "name": "Myopericardial diseases",
+            "count": 52
+          },
+          {
+            "name": "Normal structure and function of the cardiovascular system",
+            "count": 55
+          },
+          {
+            "name": "Valvular heart diseases",
+            "count": 46
+          }
+        ],
+        "name": "Cardiovascular System"
+      },
+      {
+        "count": 99,
+        "categories": [
+          {
+            "name": "Disorders of epidermal appendages",
+            "count": 11
+          },
+          {
+            "name": "Inflammatory dermatoses and bullous diseases",
+            "count": 28
+          },
+          {
+            "name": "Miscellaneous",
+            "count": 4
+          },
+          {
+            "name": "Normal structure and function of skin",
+            "count": 6
+          },
+          {
+            "name": "Skin and soft tissue infections",
+            "count": 18
+          },
+          {
+            "name": "Skin tumors and tumor-like lesions",
+            "count": 32
+          }
+        ],
+        "name": "Dermatology"
+      },
+      {
+        "count": 40,
+        "categories": [
+          {
+            "name": "Disorders of the ear, nose, and throat",
+            "count": 40
+          }
+        ],
+        "name": "Ear, Nose & Throat (ENT)"
+      },
+      {
+        "count": 199,
+        "categories": [
+          {
+            "name": "Adrenal disorders",
+            "count": 11
+          },
+          {
+            "name": "Congenital and developmental anomalies",
+            "count": 19
+          },
+          {
+            "name": "Diabetes mellitus",
+            "count": 49
+          },
+          {
+            "name": "Endocrine tumors",
+            "count": 26
+          },
+          {
+            "name": "Hypothalamus and pituitary disorders",
+            "count": 13
+          },
+          {
+            "name": "Miscellaneous",
+            "count": 10
+          },
+          {
+            "name": "Normal structure and function of endocrine glands",
+            "count": 3
+          },
+          {
+            "name": "Obesity and dyslipidemia",
+            "count": 13
+          },
+          {
+            "name": "Reproductive endocrinology",
+            "count": 21
+          },
+          {
+            "name": "Thyroid disorders",
+            "count": 34
+          }
+        ],
+        "name": "Endocrine, Diabetes & Metabolism"
+      },
+      {
+        "count": 79,
+        "categories": [
+          {
+            "name": "Breast disorders",
+            "count": 7
+          },
+          {
+            "name": "Congenital and developmental anomalies",
+            "count": 10
+          },
+          {
+            "name": "Genital tract tumors and tumor-like lesions",
+            "count": 26
+          },
+          {
+            "name": "Genitourinary tract infections",
+            "count": 13
+          },
+          {
+            "name": "Menstrual disorders and contraception",
+            "count": 4
+          },
+          {
+            "name": "Miscellaneous",
+            "count": 8
+          },
+          {
+            "name": "Normal structure and function of the female reproductive system and breast",
+            "count": 11
+          }
+        ],
+        "name": "Female Reproductive System & Breast"
+      },
+      {
+        "count": 306,
+        "categories": [
+          {
+            "name": "Biliary tract disorders",
+            "count": 17
+          },
+          {
+            "name": "Congenital and developmental anomalies",
+            "count": 21
+          },
+          {
+            "name": "Disorders of nutrition",
+            "count": 18
+          },
+          {
+            "name": "Gastroesophageal disorders",
+            "count": 45
+          },
+          {
+            "name": "Hepatic disorders",
+            "count": 59
+          },
+          {
+            "name": "Intestinal and colorectal disorders",
+            "count": 66
+          },
+          {
+            "name": "Miscellaneous",
+            "count": 14
+          },
+          {
+            "name": "Normal structure and function of the GI tract",
+            "count": 22
+          },
+          {
+            "name": "Pancreatic disorders",
+            "count": 17
+          },
+          {
+            "name": "Tumors of the GI tract",
+            "count": 27
+          }
+        ],
+        "name": "Gastrointestinal & Nutrition"
+      },
+      {
+        "count": 61,
+        "categories": [
+          {
+            "name": "Clinical genetics",
+            "count": 20
+          },
+          {
+            "name": "DNA structure, replication, and repair",
+            "count": 18
+          },
+          {
+            "name": "Gene expression and regulation",
+            "count": 7
+          },
+          {
+            "name": "Miscellaneous",
+            "count": 2
+          },
+          {
+            "name": "Protein synthesis",
+            "count": 1
+          },
+          {
+            "name": "RNA structure, synthesis, and processing",
+            "count": 13
+          }
+        ],
+        "name": "Genetics (General Principles)"
+      },
+      {
+        "count": 229,
+        "categories": [
+          {
+            "name": "Hemostasis and thrombosis",
+            "count": 36
+          },
+          {
+            "name": "Miscellaneous",
+            "count": 7
+          },
+          {
+            "name": "Normal hematologic structure and function",
+            "count": 10
+          },
+          {
+            "name": "Plasma cell disorders",
+            "count": 2
+          },
+          {
+            "name": "Platelet disorders",
+            "count": 15
+          },
+          {
+            "name": "Principles of oncology",
+            "count": 22
+          },
+          {
+            "name": "Red blood cell disorders",
+            "count": 85
+          },
+          {
+            "name": "Transfusion medicine",
+            "count": 4
+          },
+          {
+            "name": "White blood cell disorders",
+            "count": 48
+          }
+        ],
+        "name": "Hematology & Oncology"
+      },
+      {
+        "count": 271,
+        "categories": [
+          {
+            "name": "Antimicrobial drugs",
+            "count": 23
+          },
+          {
+            "name": "Bacterial infections",
+            "count": 112
+          },
+          {
+            "name": "Fungal infections",
+            "count": 12
+          },
+          {
+            "name": "HIV and sexually transmitted infections",
+            "count": 42
+          },
+          {
+            "name": "Infection control",
+            "count": 6
+          },
+          {
+            "name": "Miscellaneous",
+            "count": 7
+          },
+          {
+            "name": "Parasitic and helminthic infections",
+            "count": 26
+          },
+          {
+            "name": "Viral infections",
+            "count": 43
+          }
+        ],
+        "name": "Infectious Diseases"
+      },
+      {
+        "count": 52,
+        "categories": [
+          {
+            "name": "Disorders of the male reproductive system",
+            "count": 48
+          },
+          {
+            "name": "Normal structure and function of the male reproductive system",
+            "count": 4
+          }
+        ],
+        "name": "Male Reproductive System"
+      },
+      {
+        "count": 30,
+        "categories": [
+          {
+            "name": "Bacteriology",
+            "count": 15
+          },
+          {
+            "name": "Miscellaneous",
+            "count": 2
+          },
+          {
+            "name": "Mycology",
+            "count": 2
+          },
+          {
+            "name": "Parasitology",
+            "count": 1
+          },
+          {
+            "name": "Virology",
+            "count": 10
+          }
+        ],
+        "name": "Microbiology (General Principles)"
+      },
+      {
+        "count": 24,
+        "categories": [
+          {
+            "name": "Miscellaneous",
+            "count": 24
+          }
+        ],
+        "name": "Miscellaneous"
+      },
+      {
+        "count": 399,
+        "categories": [
+          {
+            "name": "Anesthesia",
+            "count": 12
+          },
+          {
+            "name": "CNS infections",
+            "count": 30
+          },
+          {
+            "name": "Cerebrovascular disease",
+            "count": 62
+          },
+          {
+            "name": "Congenital and developmental anomalies",
+            "count": 34
+          },
+          {
+            "name": "Demyelinating diseases",
+            "count": 9
+          },
+          {
+            "name": "Disorders of peripheral nerves and muscles",
+            "count": 69
+          },
+          {
+            "name": "Headache",
+            "count": 12
+          },
+          {
+            "name": "Hydrocephalus",
+            "count": 5
+          },
+          {
+            "name": "Miscellaneous",
+            "count": 18
+          },
+          {
+            "name": "Neurodegenerative disorders and dementias",
+            "count": 34
+          },
+          {
+            "name": "Normal structure and function of the nervous system",
+            "count": 48
+          },
+          {
+            "name": "Seizures and epilepsy",
+            "count": 19
+          },
+          {
+            "name": "Sleep disorders",
+            "count": 8
+          },
+          {
+            "name": "Spinal cord disorders",
+            "count": 14
+          },
+          {
+            "name": "Traumatic brain injuries",
+            "count": 8
+          },
+          {
+            "name": "Tumors of the nervous system",
+            "count": 17
+          }
+        ],
+        "name": "Nervous System"
+      },
+      {
+        "count": 30,
+        "categories": [
+          {
+            "name": "Disorders of the eye and associated structures",
+            "count": 27
+          },
+          {
+            "name": "Normal structure and function of the eye and associated structures",
+            "count": 3
+          }
+        ],
+        "name": "Ophthalmology"
+      },
+      {
+        "count": 39,
+        "categories": [
+          {
+            "name": "Cellular pathology",
+            "count": 6
+          },
+          {
+            "name": "Inflammation and repair",
+            "count": 2
+          },
+          {
+            "name": "Neoplasia",
+            "count": 31
+          }
+        ],
+        "name": "Pathology (General Principles)"
+      },
+      {
+        "count": 45,
+        "categories": [
+          {
+            "name": "Drug metabolism and toxicity",
+            "count": 18
+          },
+          {
+            "name": "Drug receptors and pharmacodynamics",
+            "count": 5
+          },
+          {
+            "name": "Miscellaneous",
+            "count": 8
+          },
+          {
+            "name": "Pharmacokinetics",
+            "count": 14
+          }
+        ],
+        "name": "Pharmacology (General Principles)"
+      },
+      {
+        "count": 32,
+        "categories": [
+          {
+            "name": "Environmental exposure",
+            "count": 7
+          },
+          {
+            "name": "Toxicology",
+            "count": 25
+          }
+        ],
+        "name": "Poisoning & Environmental Exposure"
+      },
+      {
+        "count": 59,
+        "categories": [
+          {
+            "name": "Disorders of pregnancy, childbirth, and puerperium",
+            "count": 44
+          },
+          {
+            "name": "Normal pregnancy, childbirth, and puerperium",
+            "count": 15
+          }
+        ],
+        "name": "Pregnancy, Childbirth & Puerperium"
+      },
+      {
+        "count": 179,
+        "categories": [
+          {
+            "name": "Anxiety and trauma-related disorders",
+            "count": 25
+          },
+          {
+            "name": "Eating disorders",
+            "count": 8
+          },
+          {
+            "name": "Miscellaneous",
+            "count": 18
+          },
+          {
+            "name": "Mood disorders",
+            "count": 33
+          },
+          {
+            "name": "Neurodevelopmental disorders",
+            "count": 17
+          },
+          {
+            "name": "Normal behavior and development",
+            "count": 18
+          },
+          {
+            "name": "Personality disorders",
+            "count": 7
+          },
+          {
+            "name": "Psychotic disorders",
+            "count": 26
+          },
+          {
+            "name": "Somatoform disorders",
+            "count": 2
+          },
+          {
+            "name": "Substance use disorders",
+            "count": 25
+          }
+        ],
+        "name": "PsychiatricandBehavioral"
+      },
+      {
+        "count": 265,
+        "categories": [
+          {
+            "name": "Congenital and developmental anomalies",
+            "count": 9
+          },
+          {
+            "name": "Critical care medicine",
+            "count": 40
+          },
+          {
+            "name": "Interstitial lung disease",
+            "count": 26
+          },
+          {
+            "name": "Lung cancer",
+            "count": 10
+          },
+          {
+            "name": "Miscellaneous",
+            "count": 21
+          },
+          {
+            "name": "Normal pulmonary structure and function",
+            "count": 25
+          },
+          {
+            "name": "Obstructive lung disease",
+            "count": 48
+          },
+          {
+            "name": "Pulmonary infections",
+            "count": 62
+          },
+          {
+            "name": "Pulmonary vascular disease",
+            "count": 23
+          },
+          {
+            "name": "Sleep disorders",
+            "count": 1
+          }
+        ],
+        "name": "Pulmonary & Critical Care"
+      },
+      {
+        "count": 224,
+        "categories": [
+          {
+            "name": "Acute kidney injury",
+            "count": 22
+          },
+          {
+            "name": "Bone metabolism",
+            "count": 8
+          },
+          {
+            "name": "Chronic kidney disease",
+            "count": 14
+          },
+          {
+            "name": "Congenital and developmental anomalies",
+            "count": 21
+          },
+          {
+            "name": "Cystic kidney diseases",
+            "count": 3
+          },
+          {
+            "name": "Diabetes insipidus",
+            "count": 8
+          },
+          {
+            "name": "Fluid, electrolytes, and acid-base",
+            "count": 38
+          },
+          {
+            "name": "Glomerular diseases",
+            "count": 39
+          },
+          {
+            "name": "Miscellaneous",
+            "count": 14
+          },
+          {
+            "name": "Neoplasms of the kidneys and urinary tract",
+            "count": 12
+          },
+          {
+            "name": "Nephrolithiasis and urinary tract obstruction",
+            "count": 16
+          },
+          {
+            "name": "Normal structure and function of the kidneys and urinary system",
+            "count": 24
+          },
+          {
+            "name": "Urinary incontinence",
+            "count": 5
+          }
+        ],
+        "name": "Renal, Urinary Systems & Electrolytes"
+      },
+      {
+        "count": 165,
+        "categories": [
+          {
+            "name": "Arthritis and spondyloarthropathies",
+            "count": 38
+          },
+          {
+            "name": "Autoimmune disorders and vasculitides",
+            "count": 25
+          },
+          {
+            "name": "Bone tumors and tumor-like lesions",
+            "count": 5
+          },
+          {
+            "name": "Bone/joint injuries and infections",
+            "count": 34
+          },
+          {
+            "name": "Congenital and developmental anomalies",
+            "count": 9
+          },
+          {
+            "name": "Metabolic bone disorders",
+            "count": 14
+          },
+          {
+            "name": "Miscellaneous",
+            "count": 5
+          },
+          {
+            "name": "Normal structure and function of the musculoskeletal system",
+            "count": 31
+          },
+          {
+            "name": "Spinal disorders and back pain",
+            "count": 4
+          }
+        ],
+        "name": "Rheumatology/Orthopedics & Sports"
+      },
+      {
+        "count": 108,
+        "categories": [
+          {
+            "name": "Communication and interpersonal skills",
+            "count": 62
+          },
+          {
+            "name": "Healthcare policy and economics",
+            "count": 9
+          },
+          {
+            "name": "Medical ethics and jurisprudence",
+            "count": 20
+          },
+          {
+            "name": "Miscellaneous",
+            "count": 3
+          },
+          {
+            "name": "Patient safety",
+            "count": 9
+          },
+          {
+            "name": "System based-practice and quality improvement",
+            "count": 5
+          }
+        ],
+        "name": "Social Sciences"
+      }
+    ]
   },
-  "sourceBankExpectedCount": 3641,
-  "validQuestionCount": 999,
-  "mediaCount": 1272,
+  "validQuestionCount": 3641,
+  "mediaCount": 4214,
+  "sourceMediaIssues": [
+    {
+      "url": "https://weworldapp.com/api/media/U21660.png",
+      "message": "A linked figure is incomplete on the source website. The original file is retained in the export."
+    }
+  ],
   "errors": []
 }
