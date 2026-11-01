@@ -1,4 +1,4 @@
-name: Publish Studywell
+name: Publish Stepanta
 on:
   push:
     branches: [main]
@@ -7,7 +7,6 @@ permissions:
   contents: read
   pages: write
   id-token: write
-  actions: write
 concurrency:
   group: studywell-pages-release
   cancel-in-progress: false
@@ -18,7 +17,7 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
       - name: Verify complete release files
         run: |
           node --input-type=module <<'NODE'
@@ -33,34 +32,10 @@ jobs:
           }
           console.log('All release assets match the build.');
           NODE
-      - name: Clear obsolete blocked releases
-        uses: actions/github-script@v7
-        with:
-          script: |
-            const repo = context.repo;
-            // Only these superseded releases are cancelled. No learner data or
-            // backend settings are touched by this hosting recovery.
-            for (const run_id of [38769971403, 38773798568]) {
-              try {
-                const {data} = await github.rest.actions.getWorkflowRun({...repo, run_id});
-                if (data.status !== 'completed') {
-                  await github.request('POST /repos/{owner}/{repo}/actions/runs/{run_id}/force-cancel', {...repo, run_id});
-                }
-              } catch (error) { core.warning(`Old workflow ${run_id}: HTTP ${error.status}`); }
-            }
-            for (const pages_deployment_id of ['64b5c2030e218e3adf6e3e7b02262141f9e34ffa', '527f4c6ae0642a98bd0e31245406e95e4dbd1e11']) {
-              try {
-                await github.request('POST /repos/{owner}/{repo}/pages/deployments/{pages_deployment_id}/cancel', {...repo, pages_deployment_id});
-                core.info(`Cancelled obsolete Pages release ${pages_deployment_id.slice(0,7)}`);
-              } catch (error) {
-                if (![400,404,409].includes(error.status)) throw error;
-                core.info(`Obsolete release ${pages_deployment_id.slice(0,7)} needs no cancellation (HTTP ${error.status})`);
-              }
-            }
       - name: Upload tested static website
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@56afc609e74202658d3ffba0e8f6dda462b719fa # v3
         with:
           path: .
       - name: Publish website
         id: deployment
-        uses: actions/deploy-pages@v5
+        uses: actions/deploy-pages@368f82528645a54fb793d4d04e342629a3f51346 # v5
