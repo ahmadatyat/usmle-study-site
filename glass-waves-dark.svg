@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="base" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#202127"/><stop offset=".55" stop-color="#303139"/><stop offset="1" stop-color="#222329"/></linearGradient>
+    <linearGradient id="wave" x1="0" y1="0" x2=".7" y2="1"><stop stop-color="#858994" stop-opacity=".32"/><stop offset=".48" stop-color="#686c79" stop-opacity=".2"/><stop offset="1" stop-color="#444751" stop-opacity=".3"/></linearGradient>
+    <linearGradient id="shade" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#111217" stop-opacity=".45"/><stop offset="1" stop-color="#9296a2" stop-opacity=".14"/></linearGradient>
+  </defs>
+  <path fill="url(#base)" d="M0 0h1600v1000H0z"/>
+  <path fill="url(#wave)" d="M-100 590C190 320 435 215 716 316s489 244 984-90v285c-332 216-558 182-883 59S244 420-100 745z"/>
+  <path fill="url(#shade)" d="M-100 745C244 420 492 447 817 570s551 157 883-59v145c-327 217-571 168-884 64S228 592-100 886z"/>
+  <path fill="url(#wave)" d="M-100 886c328-294 603-270 916-166s557 153 884-64v344H-100z"/>
+  <path fill="none" stroke="#b4b8c7" stroke-opacity=".32" stroke-width="2" d="M-100 590C190 320 435 215 716 316s489 244 984-90M-100 745C244 420 492 447 817 570s551 157 883-59"/>
+</svg>
