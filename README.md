@@ -1,4 +1,4 @@
-# Stepanta website
+# step1tasks website
 
 Generated website files only; private source history and learner data are not included.
 
