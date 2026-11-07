@@ -1,7 +1,7 @@
 {
   "sourceOrigin": "https://weworldapp.com",
   "extractedAt": "2026-10-29T08:00:42.946856+00:00",
-  "expectedCount": 3641,
+  "expectedCount": 5238,
   "classification": {
     "endpoint": "/api/system-stats-by-subject",
     "qbankid": 1,
@@ -841,7 +841,7 @@
       }
     ]
   },
-  "validQuestionCount": 3641,
+  "validQuestionCount": 5238,
   "mediaCount": 4214,
   "sourceMediaIssues": [
     {
@@ -849,5 +849,195 @@
       "message": "A linked figure is incomplete on the source website. The original file is retained in the export."
     }
   ],
-  "errors": []
+  "errors": [],
+  "nbme": {
+    "archiveManifestSha256": "1a8f2d326962ff3c4f652738ad8fee86ad8c578c2306a11183ac1f53431441dd",
+    "uniqueQuestions": 1597,
+    "formEntries": 9,
+    "mediaFiles": 428,
+    "ungradedQuestions": [
+      "weworld:33:20000046",
+      "weworld:33:20000062",
+      "weworld:33:20000091",
+      "weworld:33:20000157",
+      "weworld:33:20000195",
+      "weworld:33:20000825",
+      "weworld:33:20001441",
+      "weworld:33:20001464",
+      "weworld:33:20001577",
+      "weworld:33:20001579"
+    ],
+    "sourceIssues": [
+      {
+        "id": "weworld:33:20000046",
+        "issues": [
+          "The supplied source has no answer key. This question is excluded from accuracy scores.",
+          "The supplied source has no answer choices. You can write a response and review the explanation."
+        ]
+      },
+      {
+        "id": "weworld:33:20000062",
+        "issues": [
+          "The supplied source has no answer key. This question is excluded from accuracy scores.",
+          "The supplied source has no answer choices. You can write a response and review the explanation."
+        ]
+      },
+      {
+        "id": "weworld:33:20000091",
+        "issues": [
+          "The supplied source has no answer key. This question is excluded from accuracy scores.",
+          "The supplied source has no answer choices. You can write a response and review the explanation."
+        ]
+      },
+      {
+        "id": "weworld:33:20000157",
+        "issues": [
+          "The supplied source has no answer key. This question is excluded from accuracy scores.",
+          "The supplied source has no answer choices. You can write a response and review the explanation."
+        ]
+      },
+      {
+        "id": "weworld:33:20000195",
+        "issues": [
+          "The supplied source has no answer key. This question is excluded from accuracy scores.",
+          "The supplied source has no answer choices. You can write a response and review the explanation."
+        ]
+      },
+      {
+        "id": "weworld:33:20000471",
+        "issues": [
+          "One image is unavailable in the supplied source (HTTP 404)."
+        ]
+      },
+      {
+        "id": "weworld:33:20000567",
+        "issues": [
+          "Some answer descriptions are placeholders in the supplied source. Refer to the question figure when available."
+        ]
+      },
+      {
+        "id": "weworld:33:20000825",
+        "issues": [
+          "The supplied source has no answer key. This question is excluded from accuracy scores.",
+          "Some answer descriptions are placeholders in the supplied source. Refer to the question figure when available."
+        ]
+      },
+      {
+        "id": "weworld:33:20001040",
+        "issues": [
+          "Some answer descriptions are placeholders in the supplied source. Refer to the question figure when available."
+        ]
+      },
+      {
+        "id": "weworld:33:20001050",
+        "issues": [
+          "Some answer descriptions are placeholders in the supplied source. Refer to the question figure when available."
+        ]
+      },
+      {
+        "id": "weworld:33:20001055",
+        "issues": [
+          "Some answer descriptions are placeholders in the supplied source. Refer to the question figure when available."
+        ]
+      },
+      {
+        "id": "weworld:33:20001059",
+        "issues": [
+          "Some answer descriptions are placeholders in the supplied source. Refer to the question figure when available."
+        ]
+      },
+      {
+        "id": "weworld:33:20001090",
+        "issues": [
+          "Some answer descriptions are placeholders in the supplied source. Refer to the question figure when available."
+        ]
+      },
+      {
+        "id": "weworld:33:20001108",
+        "issues": [
+          "Some answer descriptions are placeholders in the supplied source. Refer to the question figure when available."
+        ]
+      },
+      {
+        "id": "weworld:33:20001112",
+        "issues": [
+          "Some answer descriptions are placeholders in the supplied source. Refer to the question figure when available."
+        ]
+      },
+      {
+        "id": "weworld:33:20001129",
+        "issues": [
+          "Some answer descriptions are placeholders in the supplied source. Refer to the question figure when available."
+        ]
+      },
+      {
+        "id": "weworld:33:20001441",
+        "issues": [
+          "The supplied source has no answer key. This question is excluded from accuracy scores.",
+          "The supplied source has no answer choices. You can write a response and review the explanation."
+        ]
+      },
+      {
+        "id": "weworld:33:20001464",
+        "issues": [
+          "The supplied source has no answer key. This question is excluded from accuracy scores.",
+          "The supplied source has no answer choices. You can write a response and review the explanation."
+        ]
+      },
+      {
+        "id": "weworld:33:20001577",
+        "issues": [
+          "The supplied source has no answer key. This question is excluded from accuracy scores.",
+          "The supplied source has no answer choices. You can write a response and review the explanation."
+        ]
+      },
+      {
+        "id": "weworld:33:20001579",
+        "issues": [
+          "The supplied source has no answer key. This question is excluded from accuracy scores.",
+          "The supplied source has no answer choices. You can write a response and review the explanation."
+        ]
+      }
+    ],
+    "forms": [
+      {
+        "title": "NBME Form 26",
+        "count": 200
+      },
+      {
+        "title": "NBME Form 27",
+        "count": 198
+      },
+      {
+        "title": "NBME Form 28",
+        "count": 200
+      },
+      {
+        "title": "NBME Form 29",
+        "count": 199
+      },
+      {
+        "title": "NBME Form 30",
+        "count": 200
+      },
+      {
+        "title": "NBME Form 31",
+        "count": 200
+      },
+      {
+        "title": "NBME Form 32",
+        "count": 200
+      },
+      {
+        "title": "NBME Form 33",
+        "count": 200,
+        "notice": "The supplied source uses the same question pool as Form 32."
+      },
+      {
+        "title": "NBME Form 34",
+        "count": 200
+      }
+    ],
+    "medicalCorrectnessAudited": false
+  }
 }
