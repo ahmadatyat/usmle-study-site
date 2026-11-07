@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow, noarchive">
+  <meta name="referrer" content="no-referrer">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; connect-src https://wvsioeancfilifblvnmi.supabase.co; img-src 'self' data:; object-src 'none'; base-uri 'none'; form-action 'self'; upgrade-insecure-requests">
+  <meta name="theme-color" content="#101a18">
+  <title>step1tasks Admin Dashboard</title>
+  <link rel="icon" href="./icon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./styles.css">
+  <script src="./vendor/supabase-2.117.3.js" defer></script>
+  <script src="./public-config.js" defer></script>
+  <script src="./app.js" defer></script>
+</head>
+<body>
+  <header class="masthead"><a class="brand" href="./"><span aria-hidden="true">✦</span> step1tasks<span class="brand-detail">Admin Dashboard</span></a><button id="sign-out" class="secondary" hidden>Sign out</button></header>
+  <main>
+    <section id="login" class="login card" hidden aria-labelledby="login-heading">
+      <p class="eyebrow">Private workspace</p><h1 id="login-heading">Your website,<br>at a glance.</h1><p class="muted">Sign in with your existing step1tasks owner account.</p>
+      <form id="login-form">
+        <label for="email">Email<input id="email" name="email" type="email" autocomplete="username" required maxlength="254"></label>
+        <label for="password">Password<input id="password" name="password" type="password" autocomplete="current-password" required maxlength="128"></label>
+        <button id="login-button" class="primary" type="submit">Sign in to owner console</button>
+      </form>
+      <a class="recovery" href="https://ahmadatyat.github.io/usmle-study-site/forgot-password/" target="_blank" rel="noopener noreferrer">Reset your step1tasks account password ↗</a>
+      <p class="small muted">After resetting your password, return here to sign in.</p>
+    </section>
+    <section id="status-panel" class="status-panel card" aria-live="polite"><h1 id="status-title">Checking your session…</h1><p id="status-description" class="muted"></p><button id="retry" class="secondary" hidden>Try again</button></section>
+    <p id="message" class="message" role="alert" tabindex="-1" hidden></p>
+    <div id="overview" hidden>
+      <section class="intro"><div><p class="eyebrow">Private owner view</p><h1>Admin overview</h1><p class="muted">Accounts, study usage, and connected services.</p></div><div class="refresh"><button id="refresh" class="secondary">Refresh data</button><span id="updated" class="small muted"></span></div></section>
+      <section class="metrics" aria-label="Account metrics">
+        <article class="card"><p>Total accounts</p><strong id="total">—</strong></article>
+        <article class="card"><p>Email confirmed</p><strong id="confirmed">—</strong></article>
+        <article class="card"><p>Signed in · last 30 days</p><strong id="active">—</strong></article>
+        <article class="card"><p>New accounts · last 7 days</p><strong id="new">—</strong></article>
+      </section>
+      <section class="card detail"><p class="eyebrow">At a glance</p><h2>Account activity</h2><p class="small muted">Account counts for the periods shown.</p><div id="accounts-chart"></div></section>
+      <div class="details-grid">
+        <section class="card detail"><p class="eyebrow">Study usage</p><h2>Saved account activity</h2><dl class="usage"><div><dt>Account progress records</dt><dd id="study-states">—</dd></div><div><dt>Saved account settings</dt><dd id="study-settings">—</dd></div></dl><p id="login-limit" class="small muted"></p></section>
+        <section class="card detail"><p class="eyebrow">Traffic & hosting</p><h2>Website activity</h2><p id="visits" class="muted"></p><p id="hosting" class="small muted"></p><p id="vercel" class="small muted"></p><div class="links"><a href="https://github.com/ahmadatyat/usmle-study-site/graphs/traffic" target="_blank" rel="noopener noreferrer">GitHub traffic report ↗</a><a href="https://ahmadatyat.github.io/usmle-study-site/" target="_blank" rel="noopener noreferrer">Open study website ↗</a></div></section>
+      </div>
+      <section class="card detail" aria-labelledby="codes-heading">
+        <p class="eyebrow">Owner access controls</p><h2 id="codes-heading">Create an access code</h2>
+        <p class="muted">Choose a product and how long access lasts. Step 1 and Step 2 CK codes grant access separately. Only your verified owner account can manage codes.</p>
+        <form id="code-form" class="code-form">
+          <label>Code<input name="code" required maxlength="80" autocomplete="off" autocapitalize="none" spellcheck="false"></label>
+          <label>Private label<input name="label" maxlength="80"></label>
+          <label>Product<select name="product"><option value="step1">Step 1 study tools</option><option value="step2">Step 2 CK question bank</option></select></label>
+          <label class="check"><input name="unlimitedUses" type="checkbox">Unlimited uses</label>
+          <label>Maximum uses<input name="maxUses" type="number" min="1" max="1000000" step="1" value="1" required></label>
+          <label class="check"><input name="unlimitedDuration" type="checkbox">Unlimited duration</label>
+          <label>Access duration in days<input name="durationDays" type="number" min="1" max="36500" step="1" value="30" required></label>
+          <button id="create-code" class="primary" type="submit" disabled>Create code</button>
+        </form>
+        <p id="code-message" role="status" class="muted"></p>
+        <p class="small muted">Codes are case sensitive. Exact codes appear in the first column. Older codes stored only as verifiers cannot be recovered. Disabling a code stops new redemptions. Existing grants stay active until they expire or you revoke them.</p>
+        <div class="table-wrap"><table><thead><tr><th>Code</th><th>Label</th><th>Used / limit</th><th>Access duration</th><th>Features</th><th>Status</th><th>Action</th></tr></thead><tbody id="codes"></tbody></table></div>
+        <h3>Account grants</h3><label>Find account<input id="grant-search" type="search" autocomplete="off"></label>
+        <div class="table-wrap"><table><thead><tr><th>Account</th><th>Code</th><th>Features</th><th>Access</th><th>Action</th></tr></thead><tbody id="grants"></tbody></table></div>
+      </section>
+      <section class="card detail" aria-labelledby="service-heading"><p class="eyebrow">Service observability</p><h2 id="service-heading">Traffic, bandwidth & infrastructure</h2>
+        <p class="muted">Live database measurements and connected provider reports. Missing data appears as unavailable. Database counters and API requests do not measure website visitors.</p>
+        <div class="metrics"><article><p>Database size</p><strong id="db-size">—</strong></article><article><p>Stored files</p><strong id="storage-size">—</strong></article><article><p>Connections</p><strong id="db-connections">—</strong></article><article><p>Code grants active / expired</p><strong id="grant-count">—</strong></article></div>
+        <div id="database-metrics"></div>
+        <h3>Application tables</h3><p class="small muted">Row counts are Postgres estimates; table sizes include indexes. Counters are cumulative since the statistics reset.</p><div id="table-metrics" class="table-wrap"></div>
+        <h3>Supabase API traffic · last 24 hours</h3><p id="supabase-status" class="muted"></p><div id="traffic-chart"></div><div id="api-traffic" class="table-wrap"></div>
+        <h3>Bandwidth and billed egress</h3><p id="bandwidth-status" class="muted"></p>
+        <details><summary>All available infrastructure measurements</summary><p id="scrape-status" class="small muted"></p><div id="provider-measurements" class="table-wrap"></div></details>
+        <h3>Vercel deployments and analytics</h3><p id="vercel-status" class="muted"></p><div id="deployments" class="table-wrap"></div>
+        <div class="links"><a href="https://supabase.com/dashboard/project/wvsioeancfilifblvnmi/reports" target="_blank" rel="noopener noreferrer">Supabase reports ↗</a><a href="https://supabase.com/dashboard/org/xwzqzgiqitkcbqjhghgm/usage" target="_blank" rel="noopener noreferrer">Supabase billing usage ↗</a><a href="https://vercel.com/dashboard" target="_blank" rel="noopener noreferrer">Vercel dashboard ↗</a></div>
+      </section>
+      <section class="card detail directory"><div class="directory-heading"><div><p class="eyebrow">Account directory</p><h2>Latest account sign-ins</h2></div><span id="directory-count" class="small muted"></span></div><p class="small muted">Latest sign-in per account, rather than a complete login history.</p><div class="table-wrap"><table><thead><tr><th scope="col">Email</th><th scope="col">Confirmed</th><th scope="col">Created</th><th scope="col">Last sign-in</th><th scope="col">Trial ends</th></tr></thead><tbody id="accounts"></tbody></table></div><p id="password-limit" class="small muted"></p></section>
+    </div>
+  </main>
+  <footer>step1tasks Admin Dashboard · Restricted account access</footer>
+  <noscript><p class="message">Enable JavaScript to sign in to the owner console.</p></noscript>
+</body>
+</html>
