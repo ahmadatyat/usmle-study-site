@@ -1,0 +1,49 @@
+name: Verify published step1tasks
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: verify-published-step1tasks
+  cancel-in-progress: true
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+      - name: Verify live release and changed routes
+        run: |
+          python3 - <<'PY'
+          import hashlib,json,time,urllib.request
+          from pathlib import Path
+          expected=json.loads(Path('deployment.json').read_text())
+          base='https://ahmadatyat.github.io/usmle-study-site/'
+          def read(path):
+            req=urllib.request.Request(base+path,headers={'Cache-Control':'no-cache','User-Agent':'step1tasks-publication-check'})
+            with urllib.request.urlopen(req,timeout=30) as response:
+              return response.read()
+          for attempt in range(48):
+            try:
+              actual=json.loads(read('deployment.json?verify='+expected['sourceRevision']))
+              assert actual['sourceRevision']==expected['sourceRevision'],'Live site still serves another release'
+              assert actual['accountsEnabled'] is True,'Account configuration missing'
+              integrity=json.loads(Path('release-integrity.json').read_text())
+              for route in ['dashboard/','calendar/','flashcards/','question-bank/','questions/']:
+                html=read(route+'?verify='+expected['sourceRevision'])
+                item=integrity['files'][route+'index.html']
+                assert hashlib.sha256(html).hexdigest()==item['sha256'],'Live HTML differs: '+route
+              assets=[(name,item) for name,item in integrity['files'].items() if name.startswith('_next/static/') and name.endswith('.js')][:3]
+              assert assets,'Release has no application bundles'
+              for name,item in assets:
+                data=read(name)
+                assert len(data)==item['bytes'] and hashlib.sha256(data).hexdigest()==item['sha256'],'Live asset differs: '+name
+              print('Verified live release',actual['sourceRevision'],'with accounts, five routes and asset integrity.')
+              break
+            except Exception as error:
+              if attempt==47: raise
+              print('Waiting for Pages/CDN:',str(error))
+              time.sleep(10)
+          PY
