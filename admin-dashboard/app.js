@@ -8,6 +8,7 @@
 
   function clearData() {
     overview.hidden = true;
+    window.BookshopAdmin?.clear();
     accessData = null;
     byId('grants').replaceChildren();
     byId('grant-search').value = '';
@@ -219,6 +220,7 @@
       if (version !== requestVersion) return;
       render(validate(data));
       renderAccess(access);
+      void window.BookshopAdmin?.load(client);
     } catch {
       if (version === requestVersion) showStatus('Overview unavailable', 'We could not reach the account service. Check your connection and try again.', true);
     }
