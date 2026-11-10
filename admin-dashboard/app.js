@@ -4,7 +4,7 @@
   const login = byId('login'), overview = byId('overview'), statusPanel = byId('status-panel');
   const message = byId('message'), signOut = byId('sign-out'), retry = byId('retry');
   let accessData = null;
-  let client, requestVersion = 0, sessionTimer, signingOut = false;
+  let client, requestVersion = 0, sessionTimer, signingOut = false, sessionUserId = null;
 
   function clearData() {
     overview.hidden = true;
@@ -18,6 +18,7 @@
     byId('code-form').reset();
     syncLimits();
     byId('code-message').textContent = '';
+    for (const id of ['db-size','storage-size','db-connections','grant-count','supabase-status','bandwidth-status','scrape-status','vercel-status']) byId(id).textContent = '';
     for (const id of ['total', 'confirmed', 'active', 'new', 'study-states', 'study-settings', 'updated', 'directory-count', 'visits', 'hosting', 'vercel', 'login-limit', 'password-limit']) byId(id).textContent = '';
   }
   function notify(text) {
@@ -66,7 +67,6 @@
     byId('accounts').replaceChildren(...rows);
     barChart('accounts-chart', [['Total accounts', data.accounts.total], ['Confirmed', data.accounts.confirmed], ['Signed in · 30 days', data.accounts.activeLast30Days], ['New · 7 days', data.accounts.createdLast7Days]]);
 
-    renderServices(data);
     login.hidden = true;
     statusPanel.hidden = true;
     overview.hidden = false;
@@ -208,19 +208,52 @@
         showStatus('Owner access required', 'Only ahmadabdatyyat@gmail.com can enter this dashboard.');
         return;
       }
-      const { data, error } = await client.functions.invoke('admin-overview', { method: 'GET' });
-      if (version !== requestVersion) return;
-      if (error) {
-        const code = error.context?.status;
-        if (code === 401 || code === 403) showStatus('Owner access required', 'This signed-in account is not authorized to view the owner console. Sign out and use your owner account.');
-        else showStatus('Overview unavailable', 'We could not load account activity. Check your connection and try again.', true);
-        return;
-      }
-      const access = await mutateCode('list');
-      if (version !== requestVersion) return;
-      render(validate(data));
-      renderAccess(access);
+      // Open the verified owner's shell before optional reports finish.
+      login.hidden = true;
+      statusPanel.hidden = true;
+      overview.hidden = false;
+      for (const id of ['total','confirmed','active','new','study-states','study-settings','db-size','storage-size','db-connections','grant-count']) byId(id).textContent = '…';
+      byId('updated').textContent = 'Loading account activity…';
+      byId('code-message').textContent = 'Loading access codes…';
+      byId('supabase-status').textContent = 'Loading service reports…';
+      byId('vercel-status').textContent = 'Loading deployment reports…';
       void window.BookshopAdmin?.load(client);
+      const current = () => version === requestVersion;
+      const denied = error => {
+        const status = error?.context?.status;
+        if (status !== 401 && status !== 403) return false;
+        ++requestVersion; clearData();
+        showStatus('Owner access required', 'Sign out and sign in with your verified owner account.');
+        return true;
+      };
+      const accounts = (async () => {
+        try {
+          const { data, error } = await client.functions.invoke('admin-overview', { method: 'GET', timeout: 15000 });
+          if (!current()) return;
+          if (error) { if (denied(error)) return; throw error; }
+          render(validate(data));
+        } catch {
+          if (current()) byId('updated').textContent = 'Account activity unavailable. Use Refresh data to retry; other controls are still available.';
+        }
+      })();
+      const access = (async () => {
+        try {
+          const data = await mutateCode('list');
+          if (!current()) return;
+          renderAccess(data); byId('code-message').textContent = '';
+        } catch (error) { if (current()) byId('code-message').textContent = error.message; }
+      })();
+      const services = (async () => {
+        try {
+          const { data, error } = await client.functions.invoke('admin-overview?view=services', { method: 'GET', timeout: 15000 });
+          if (!current()) return;
+          if (error) { if (denied(error)) return; throw error; }
+          renderServices(data);
+        } catch {
+          if (current()) renderServices({ providers: { supabase: { reason: 'Service reports unavailable. Use Refresh data to retry.' }, vercel: { reason: 'Deployment reports unavailable.' } } });
+        }
+      })();
+      await Promise.all([accounts, access, services]);
     } catch {
       if (version === requestVersion) showStatus('Overview unavailable', 'We could not reach the account service. Check your connection and try again.', true);
     }
@@ -261,6 +294,8 @@
     if (!config?.url || !config?.publishableKey || !window.supabase) throw new Error('Missing configuration');
     client = window.supabase.createClient(config.url, config.publishableKey, { auth: { storage: window.sessionStorage, storageKey: 'studywell-owner-console-auth-v1', persistSession: true, autoRefreshToken: true, detectSessionInUrl: false } });
     client.auth.onAuthStateChange((_event, session) => {
+      if (session?.user?.id && session.user.id === sessionUserId && _event === 'TOKEN_REFRESHED') return;
+      sessionUserId = session?.user?.id ?? null;
       clearTimeout(sessionTimer);
       ++requestVersion;
       clearData();
