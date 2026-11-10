@@ -1,0 +1,1 @@
+self.__SSG_MANIFEST=new Set(["\u002Fexperiences\u002F[slug]","\u002Fsubjects\u002F[system]"]);self.__SSG_MANIFEST_CB&&self.__SSG_MANIFEST_CB()
