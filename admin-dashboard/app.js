@@ -9,6 +9,7 @@
   function clearData() {
     overview.hidden = true;
     window.BookshopAdmin?.clear();
+    window.TelegramAdmin?.clear();
     accessData = null;
     byId('grants').replaceChildren();
     byId('grant-search').value = '';
@@ -218,6 +219,7 @@
       byId('supabase-status').textContent = 'Loading service reports…';
       byId('vercel-status').textContent = 'Loading deployment reports…';
       void window.BookshopAdmin?.load(client);
+      void window.TelegramAdmin?.load(client);
       const current = () => version === requestVersion;
       const denied = error => {
         const status = error?.context?.status;

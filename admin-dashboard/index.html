@@ -13,6 +13,7 @@
   <script src="./vendor/supabase-2.117.3.js" defer></script>
   <script src="./public-config.js" defer></script>
   <script src="./bookshop.js" defer></script>
+  <script src="./telegram.js" defer></script>
   <script src="./app.js" defer></script>
 </head>
 <body>
@@ -43,6 +44,21 @@
         <section class="card detail"><p class="eyebrow">Study usage</p><h2>Saved account activity</h2><dl class="usage"><div><dt>Account progress records</dt><dd id="study-states">—</dd></div><div><dt>Saved account settings</dt><dd id="study-settings">—</dd></div></dl><p id="login-limit" class="small muted"></p></section>
         <section class="card detail"><p class="eyebrow">Traffic & hosting</p><h2>Website activity</h2><p id="visits" class="muted"></p><p id="hosting" class="small muted"></p><p id="vercel" class="small muted"></p><div class="links"><a href="#bookshop-admin">Bookshelf &amp; order inbox →</a><a href="https://github.com/ahmadatyat/usmle-study-site/graphs/traffic" target="_blank" rel="noopener noreferrer">GitHub traffic report ↗</a><a href="https://ahmadatyat.github.io/usmle-study-site/" target="_blank" rel="noopener noreferrer">Open study website ↗</a></div></section>
       </div>
+      <section id="telegram-admin" class="card detail" aria-labelledby="telegram-admin-title">
+        <div class="directory-heading"><h2 id="telegram-admin-title">Announcements</h2><a href="../telegram/help/" aria-label="Telegram help">?</a></div>
+        <p id="telegram-health" class="small muted">Loading Telegram…</p>
+        <form id="telegram-announcement-form">
+          <label>Audience<select id="telegram-audience"><option value="all">All students</option><option value="team">One study team</option><option value="user">One student</option></select></label>
+          <label id="telegram-target-label" hidden>Choose recipient<select id="telegram-target"></select></label>
+          <label>Title<input id="telegram-title" required maxlength="100"></label>
+          <label>Message<textarea id="telegram-text" rows="5" required maxlength="3900"></textarea></label>
+          <div class="links"><label class="check"><input id="telegram-inbox" type="checkbox" checked>Inbox</label><label class="check"><input id="telegram-private" type="checkbox" checked>Private Telegram</label><label class="check"><input id="telegram-groups" type="checkbox">Telegram groups</label></div>
+          <button id="telegram-send" type="submit" class="primary" disabled>Send announcement</button>
+        </form>
+        <p id="telegram-message" role="status" aria-live="polite"></p>
+        <button id="telegram-refresh" class="secondary" type="button">Refresh delivery status</button>
+        <ul id="telegram-campaigns" class="small muted"></ul>
+      </section>
       <section id="bookshop-admin" class="card detail" aria-label="Bookshelf management"></section>
       <section class="card detail" aria-labelledby="codes-heading">
         <p class="eyebrow">Owner access controls</p><h2 id="codes-heading">Create an access code</h2>
