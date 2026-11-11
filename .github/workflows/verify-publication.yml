@@ -32,7 +32,7 @@ jobs:
               assert actual['accountsEnabled'] is True,'Account configuration missing'
               integrity=json.loads(Path('release-integrity.json').read_text())
               route_assets=set()
-              for route in ['dashboard/','calendar/','flashcards/','question-bank/','questions/','bookshelf/','library/','settings/','resources/','team/','experiences/']:
+              for route in ['dashboard/','calendar/','plan/','flashcards/','question-bank/','questions/','bookshelf/','library/','settings/','resources/','team/','experiences/']:
                 html=read(route+'?verify='+expected['sourceRevision'])
                 item=integrity['files'][route+'index.html']
                 assert hashlib.sha256(html).hexdigest()==item['sha256'],'Live HTML differs: '+route
@@ -47,7 +47,7 @@ jobs:
               for name,item in assets:
                 data=read(name)
                 assert len(data)==item['bytes'] and hashlib.sha256(data).hexdigest()==item['sha256'],'Live asset differs: '+name
-              print('Verified live release',actual['sourceRevision'],'with accounts, eleven routes, bookshelf management and all route application bundles.')
+              print('Verified live release',actual['sourceRevision'],'with accounts, twelve routes, bookshelf management and all route application bundles.')
               break
             except Exception as error:
               if attempt==47: raise
