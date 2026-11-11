@@ -17,7 +17,7 @@ jobs:
       - name: Verify live release and changed routes
         run: |
           python3 - <<'PY'
-          import hashlib,json,time,urllib.request
+          import hashlib,json,re,time,urllib.request
           from pathlib import Path
           expected=json.loads(Path('deployment.json').read_text())
           base='https://ahmadatyat.github.io/usmle-study-site/'
@@ -31,19 +31,23 @@ jobs:
               assert actual['sourceRevision']==expected['sourceRevision'],'Live site still serves another release'
               assert actual['accountsEnabled'] is True,'Account configuration missing'
               integrity=json.loads(Path('release-integrity.json').read_text())
-              for route in ['dashboard/','calendar/','flashcards/','question-bank/','questions/','bookshelf/']:
+              route_assets=set()
+              for route in ['dashboard/','calendar/','flashcards/','question-bank/','questions/','bookshelf/','library/','settings/','resources/','team/','experiences/']:
                 html=read(route+'?verify='+expected['sourceRevision'])
                 item=integrity['files'][route+'index.html']
                 assert hashlib.sha256(html).hexdigest()==item['sha256'],'Live HTML differs: '+route
+                for src in re.findall(r'<script[^>]+src="([^"]+)"',html.decode()):
+                  if src.startswith('/usmle-study-site/_next/static/'):
+                    route_assets.add(src.removeprefix('/usmle-study-site/').split('?')[0])
               for name in ['admin-dashboard/index.html','admin-dashboard/bookshop.js','admin-dashboard/app.js']:
                 data=read(name+'?verify='+expected['sourceRevision'])
                 assert hashlib.sha256(data).hexdigest()==integrity['files'][name]['sha256'],'Live admin differs: '+name
-              assets=[(name,item) for name,item in integrity['files'].items() if name.startswith('_next/static/') and name.endswith('.js')][:3]
+              assets=[(name,integrity['files'][name]) for name in sorted(route_assets)]
               assert assets,'Release has no application bundles'
               for name,item in assets:
                 data=read(name)
                 assert len(data)==item['bytes'] and hashlib.sha256(data).hexdigest()==item['sha256'],'Live asset differs: '+name
-              print('Verified live release',actual['sourceRevision'],'with accounts, six routes, bookshelf management and asset integrity.')
+              print('Verified live release',actual['sourceRevision'],'with accounts, eleven routes, bookshelf management and all route application bundles.')
               break
             except Exception as error:
               if attempt==47: raise
