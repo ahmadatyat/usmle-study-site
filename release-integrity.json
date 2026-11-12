@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "sourceRevision": "40162406756e90652ccb3f37c9d8d7dafd85ec83",
+  "sourceRevision": "707d03d9faa8eda0e75cae11bdda90dfb8f1d0d0",
   "accountsEnabled": true,
   "files": {
     ".github/workflows/publish-mnemosyne.yml": {
@@ -14,9 +14,9 @@
       "gitBlobSha": "af67182b8953f1d33d4dacebfb7e671936f96e0b"
     },
     ".github/workflows/verify-publication.yml": {
-      "bytes": 3045,
-      "sha256": "9a6cdae507f7f4822a95f07789d58f12d0cae2724d7a8dfc223791d668a05354",
-      "gitBlobSha": "00dfa97948acd08c4ac222479f36323ce81db262"
+      "bytes": 5077,
+      "sha256": "a5c258e19556365653b4d293250ad3afbef75b78eee60892c0dc50c08540abda",
+      "gitBlobSha": "b2960b6c17c4962567d07169fdee9fd50fb3b2df"
     },
     ".nojekyll": {
       "bytes": 0,
@@ -25,28 +25,18 @@
     },
     "404.html": {
       "bytes": 28661,
-      "sha256": "4cdf4ba47c924b609ead3ed4b28b38579faeb3e084274d7c846b2dadbe8ef8a9",
-      "gitBlobSha": "0492c7f90557644c7f6cc60de3e81edee2c28e5c"
+      "sha256": "0d2aa50a948264cb40fa121c3367a0dae84c9123ff3a621adc3ee4393df6ca83",
+      "gitBlobSha": "71cf92b0f3274f82ddb26471dcab4e4ffe1ba00f"
     },
     "404/index.html": {
       "bytes": 28661,
-      "sha256": "4cdf4ba47c924b609ead3ed4b28b38579faeb3e084274d7c846b2dadbe8ef8a9",
-      "gitBlobSha": "0492c7f90557644c7f6cc60de3e81edee2c28e5c"
+      "sha256": "0d2aa50a948264cb40fa121c3367a0dae84c9123ff3a621adc3ee4393df6ca83",
+      "gitBlobSha": "71cf92b0f3274f82ddb26471dcab4e4ffe1ba00f"
     },
     "README.md": {
       "bytes": 503,
       "sha256": "f74730bf9b7ba9e8e63c39eb41197337baa9949f5c1f2eb5dac9847f89faa045",
       "gitBlobSha": "b8a0fe966471412bdcc72cfdd1fb83df0152e071"
-    },
-    "_next/static/U6k93YiOrAQdn5dwhL0yu/_buildManifest.js": {
-      "bytes": 2083,
-      "sha256": "c386272b3b7caf9998c9492c9e03659264f3fbcf7bd5e6174c7cb2e036d23214",
-      "gitBlobSha": "71597c5d106505f24e876f920ce1f1bd75b102c3"
-    },
-    "_next/static/U6k93YiOrAQdn5dwhL0yu/_ssgManifest.js": {
-      "bytes": 142,
-      "sha256": "479adea0e8327a326f2b744d5d8570cbaa03627911ca3d86e0f5f098a984febe",
-      "gitBlobSha": "2ce43bc10aa7417ece4b800e14e633d960805519"
     },
     "_next/static/chunks/1182.64d4d498517ecaad.js": {
       "bytes": 2543,
@@ -203,6 +193,11 @@
       "sha256": "65a6f763e7e786573ce299d0610dabfe54a57184d35ef1ab48297aadd5d77ef7",
       "gitBlobSha": "bf9570494f5101dde5e6e6e4643a55904585e992"
     },
+    "_next/static/chunks/6399-ef60cf21e3dfe536.js": {
+      "bytes": 19377,
+      "sha256": "7d4cb561536afd4c87d1026c23dfee122750679ed0541a5c7661f238e8349301",
+      "gitBlobSha": "ce28a4aa07a5d9bdc08d468ddfd7af2631af6c2e"
+    },
     "_next/static/chunks/6402.1f8b48b501cef435.js": {
       "bytes": 1752,
       "sha256": "5cd3896acb5605e53b2d9a99ceaa9486f02aa5c50e45f698912a3de509112e2b",
@@ -233,10 +228,10 @@
       "sha256": "cd73fdfc8436c014ebc2d73860501ed02c86333066e869ab0dbfb39e3914c8b3",
       "gitBlobSha": "095b8e60434d8eccc6fb545780ea3c48e3a36dde"
     },
-    "_next/static/chunks/690-1cc786512632a6e8.js": {
+    "_next/static/chunks/690-58c52ac289555919.js": {
       "bytes": 87071,
-      "sha256": "ed91a134e007f609d689dc4ab159fd1dbc7037f00e1de704146ed96a53c9028d",
-      "gitBlobSha": "b90afda473b45f827547ec1d74f1b75218a36369"
+      "sha256": "6689c0abb1d6e5c5558d6fc56dc28431cafa683bb3914830c224bb5b72dc3c15",
+      "gitBlobSha": "f176c5bbc8dd2c4bf412d554f2f0a1c6aa4bb85d"
     },
     "_next/static/chunks/6927-071f433f08382340.js": {
       "bytes": 44518,
@@ -288,11 +283,6 @@
       "sha256": "1c63ad81b99e8572130ba18fa37b20c2d545c7fe8bccf6e7ffe6bc18a4ff0c49",
       "gitBlobSha": "4d06c761107a066d15f6127c916e84d31365ad1a"
     },
-    "_next/static/chunks/9033-404d815d80c7d80e.js": {
-      "bytes": 19378,
-      "sha256": "3250b72597750903e49897b0f5f817efd13b00f371b164b967d1ea6818824f07",
-      "gitBlobSha": "21a8fda366a09554b7fd44e10fe857df21975f6e"
-    },
     "_next/static/chunks/9035.b8c33e88523c5d5d.js": {
       "bytes": 29811,
       "sha256": "2a5ee713f069929e3cab8a21e961290df0e050c4fdc0e8f5cd577224ed7fbf0e",
@@ -323,180 +313,180 @@
       "sha256": "11009586ae913704b07bf705e07b3432c42b671e14078c3fefc391e0f5f9d10f",
       "gitBlobSha": "eb190dcd1feed4832870d521c3f8d681f9dbf383"
     },
-    "_next/static/chunks/app/_not-found/page-9a6225613538b65f.js": {
-      "bytes": 371,
-      "sha256": "d85420b703a024101da423dbde5d2b513ba1fdd12d424c0d94a85da6dfb30368",
-      "gitBlobSha": "f21bc9a6f44379f7499d803e2eb2ee3a3b854221"
+    "_next/static/chunks/app/_not-found/page-6a5373ada7592078.js": {
+      "bytes": 373,
+      "sha256": "929554f388f1ea25490453ac54c5b711a146b9606a9e4a742082f5520f89ae09",
+      "gitBlobSha": "b51d5d8dbe07f2a255e38d07767ac46e7b34a4ad"
     },
-    "_next/static/chunks/app/account/page-7c7dd95d6b07548f.js": {
+    "_next/static/chunks/app/account/page-12cf18eec8d55566.js": {
       "bytes": 2000,
-      "sha256": "a1c3fbbf253658fc09257dccba9ff5ee4c798241b358820ef505dde2413a9c05",
-      "gitBlobSha": "b2e757e0d761c771e52fb7f81b30cecc3143e471"
+      "sha256": "b2648503f11ce4fbee4fdfdc7f0eb03329cf588a32d2c0ef98dcbe726de2dc78",
+      "gitBlobSha": "1a239bd5c857f60cb7406f54dc0f38113112aa8a"
     },
     "_next/static/chunks/app/admin/layout-f5cbbc55aee41271.js": {
       "bytes": 191,
       "sha256": "7a02adb647fbd004c7da87a98a78a83d138f984e15b5326c640dd5139eb6ddba",
       "gitBlobSha": "b549d1e8785fcb59cb6b1b73765c40564aae11eb"
     },
-    "_next/static/chunks/app/admin/page-ef370861db5df140.js": {
+    "_next/static/chunks/app/admin/page-0754bf57d8434a2d.js": {
       "bytes": 538,
-      "sha256": "e6f22f3069ab6d42dd27013eb4e07aec9951f29cf5730b6b4deafa3b3b469de9",
-      "gitBlobSha": "21de9879c1755c852737beb1cbd00e688e284105"
+      "sha256": "4446e10630908435c48020fcb82a00a7f3b6db494abdb1b0866c370cd4013f6e",
+      "gitBlobSha": "2991939183137121921dac71008ffa3896ea0190"
     },
-    "_next/static/chunks/app/auth/callback/page-106f6fd9992b6f95.js": {
-      "bytes": 10648,
-      "sha256": "6c215f95b6b8314519732420ebd4d7d5b3f006e5033f2f786559c223811bb0ee",
-      "gitBlobSha": "5376264e31d22f67eb1fa2fb2f808678cc32633b"
+    "_next/static/chunks/app/auth/callback/page-9c159bb54c8155d1.js": {
+      "bytes": 10646,
+      "sha256": "a6297bb03a7f0f90ef076c0c8e43ffa90d32f7aa3d11213782854f7bcb939bad",
+      "gitBlobSha": "0d7d62430d569ce722c625d43c01888908120a7f"
     },
-    "_next/static/chunks/app/billing/page-29c9b10984be0307.js": {
+    "_next/static/chunks/app/billing/page-69279a821626f552.js": {
       "bytes": 5015,
-      "sha256": "f96c04b2564e9f5bc146d8a90f2c720d1d882bb5b8d32baf2d6ae0313785dd90",
-      "gitBlobSha": "9351be8867d8699a8f542ce902389f96f8e5d686"
+      "sha256": "503f514d95e74d7f82beae8fe4cc392af38e5443dcc4eb163b113635f78831e4",
+      "gitBlobSha": "f515b8a0e785148e46306d3b0ddb3559d2787e67"
     },
-    "_next/static/chunks/app/book/page-de864e6686d2b5ad.js": {
+    "_next/static/chunks/app/book/page-d288e5ec0e0b4413.js": {
       "bytes": 4078,
-      "sha256": "3ac606fc7f2b44b07b588bb36e18056282546d06ceb0837cf0cf7ee07c9b68df",
-      "gitBlobSha": "a9e219f99557b0b283b525fa8154426b76719ca3"
+      "sha256": "6039e1163e57f3787a058c1bf91871b9bed391f552cc3f6c7e4d3152c8137981",
+      "gitBlobSha": "c03f3c832ff441560e25678b451c3a6bf040ffbe"
     },
-    "_next/static/chunks/app/bookshelf/page-12642fd318dd9642.js": {
+    "_next/static/chunks/app/bookshelf/page-8c35772ff4157859.js": {
       "bytes": 11038,
-      "sha256": "31d3ad32ae21894ee0c1d00a4b66bad9a7ef4f99944c610b1e850b340bea1724",
-      "gitBlobSha": "372eec29e5a6a41077426d07731eaca5b21f9897"
+      "sha256": "92f38c61456a4c3e36b676e79c0071393e26c5e45002628b7817ebcb390bdc7b",
+      "gitBlobSha": "4262a94702aa23f8894401d845b3c17a15cb80d0"
     },
     "_next/static/chunks/app/calendar/layout-f5cbbc55aee41271.js": {
       "bytes": 191,
       "sha256": "7a02adb647fbd004c7da87a98a78a83d138f984e15b5326c640dd5139eb6ddba",
       "gitBlobSha": "b549d1e8785fcb59cb6b1b73765c40564aae11eb"
     },
-    "_next/static/chunks/app/calendar/page-1f28be466d99d963.js": {
+    "_next/static/chunks/app/calendar/page-5a64edce02b785ec.js": {
       "bytes": 22782,
-      "sha256": "01a65290552fe6c76ababe3ec5ed4c394a295de4aa4a21bf03a7781cff17b031",
-      "gitBlobSha": "df78b2e0d464cc09243bdd029160ba19a974c1ec"
+      "sha256": "32077f5d8ddc97ac633098f0261db604904d144f0644ff158336fd03376c7a60",
+      "gitBlobSha": "41492b77542745e4fd8be8db2c807ea39ba0d309"
     },
-    "_next/static/chunks/app/copyright/page-6bbd1de9d58c1d25.js": {
+    "_next/static/chunks/app/copyright/page-1b1a3bee163d56cc.js": {
       "bytes": 3514,
-      "sha256": "bb221567c42d4f835c4a81a83e62a531c844c054c36d14eaba598068c750b367",
-      "gitBlobSha": "10f637a64df5abbe14efc42bcbe436aa38c17728"
+      "sha256": "3c196245d8913c593df07862b473f911056ab6eb00d1ba448b50ec98898895c2",
+      "gitBlobSha": "c56235811ac0a09f88aa52547c95f45bd8c1aff1"
     },
     "_next/static/chunks/app/dashboard/layout-f5cbbc55aee41271.js": {
       "bytes": 191,
       "sha256": "7a02adb647fbd004c7da87a98a78a83d138f984e15b5326c640dd5139eb6ddba",
       "gitBlobSha": "b549d1e8785fcb59cb6b1b73765c40564aae11eb"
     },
-    "_next/static/chunks/app/dashboard/page-b5711f65bbdd7d0f.js": {
+    "_next/static/chunks/app/dashboard/page-a4f4f26976e94895.js": {
       "bytes": 2266,
-      "sha256": "8ef53d792c53e9dd1d0ca163d109f1886c4aca989bc942e0712be37dcefc1d76",
-      "gitBlobSha": "616311a9657e15a1c245565038cd5a62549a47e6"
+      "sha256": "303c19313f6384d46ebfa3df3dc5135885762c7665585382dd4e68c53fcd53d3",
+      "gitBlobSha": "b365295958ab6d74b1a5774649b1fa879c5c5434"
     },
-    "_next/static/chunks/app/experiences/[slug]/page-18fc02db4f63da9e.js": {
-      "bytes": 6233,
-      "sha256": "0e5d11f0a24d113e4b44f89ce017f551c309daa48c7509c2ccba39b29af98c93",
-      "gitBlobSha": "b3ae2bd7a0a234b5965f50d50ba6e6d267f45ec7"
+    "_next/static/chunks/app/experiences/[slug]/page-eecf4bcda61202e5.js": {
+      "bytes": 6231,
+      "sha256": "53fd9d62991d65c6928dd576ebfb5e205af16e9e607bce6b1fd686bbe424ccf4",
+      "gitBlobSha": "c51a037f212bff2456b44e64128592f5ea910218"
     },
     "_next/static/chunks/app/experiences/layout-f5cbbc55aee41271.js": {
       "bytes": 191,
       "sha256": "7a02adb647fbd004c7da87a98a78a83d138f984e15b5326c640dd5139eb6ddba",
       "gitBlobSha": "b549d1e8785fcb59cb6b1b73765c40564aae11eb"
     },
-    "_next/static/chunks/app/experiences/page-b8f818a9adaf06b6.js": {
+    "_next/static/chunks/app/experiences/page-d976480e93ebf5ec.js": {
       "bytes": 19566,
-      "sha256": "bdb98ed8a42b3e9f908ff24df56fc7dab201489f150da21cf15d388d97174474",
-      "gitBlobSha": "e5d78a464ddcbc08b1e28ee770e78b4c32f2d5dd"
+      "sha256": "231e281c855d9ad9e8f1cd511d971189eb61aadfa182ed11e29ffa14e32e609b",
+      "gitBlobSha": "2d1b5fe85ebdb28694404490f1c0925ca6d81954"
     },
-    "_next/static/chunks/app/faq/page-7147e3b18da201e5.js": {
+    "_next/static/chunks/app/faq/page-3b7c2ee52bb17893.js": {
       "bytes": 1919,
-      "sha256": "7bb74784777eda0530eff0ffc27a3cd8c37aaf2033013974f35b5f8444e9f877",
-      "gitBlobSha": "e88be37bcf268cf2b92b8a8e6c0d3efc00a468dc"
+      "sha256": "ba90e5bfd752ff430f03ae68b25f75255484f96111375b58962e9863acdb9b21",
+      "gitBlobSha": "ae2a607b5a2d5c1d11903a52cad932a66e7d79e5"
     },
-    "_next/static/chunks/app/flashcards/page-30810dd0f02aa25e.js": {
+    "_next/static/chunks/app/flashcards/page-29b8da213819100f.js": {
       "bytes": 996,
-      "sha256": "1ad06deccce71a34de52ddca444eb4ce7a78dd10c74c707668992fcad1c8aa8e",
-      "gitBlobSha": "a9820bbd09480dd63f1dbffc48cabda095373bf4"
+      "sha256": "7c73fd64898c895df2b06b5da74bcbbce88787485869df6a8eb3be906ebe7274",
+      "gitBlobSha": "ae47316c0c9faca1fbdeb22e38a41fba2a6870e9"
     },
-    "_next/static/chunks/app/forgot-password/page-125be25e9e60f6f0.js": {
-      "bytes": 154,
-      "sha256": "8ed4ae4e8e25002ed15be0af2d2ee1d6e5c2f5dac62e7170f65eefbf41c8ddfc",
-      "gitBlobSha": "f580b711ef50f0c3557a5d5da75ffdbb2ebf8e83"
+    "_next/static/chunks/app/forgot-password/page-27bf1ee422949f11.js": {
+      "bytes": 153,
+      "sha256": "e1d45660a9adb05f83306407d99c9db0de1400015f9e4b8a0f759373a7084108",
+      "gitBlobSha": "ae682f94463130b648482b78e66d9b1f8786df5f"
     },
-    "_next/static/chunks/app/inbox/page-b489eebe9123bbf8.js": {
+    "_next/static/chunks/app/inbox/page-e0b787a4b44b8c4f.js": {
       "bytes": 16518,
-      "sha256": "425010b289fcb8ffa2e8e6b31fb0034a0ce4e2e3988cf81dc2aca51304de45a5",
-      "gitBlobSha": "687478ecce640660fa8d05276d8ce4d69fe1ed36"
+      "sha256": "a8ece5983926ce5f961386c83596a410d0f3e52539bcbb5a8a993b8695ce2ff8",
+      "gitBlobSha": "1a216a89ff3e7531a1f7d73127f5138eb626c490"
     },
-    "_next/static/chunks/app/layout-307a4f0dde370403.js": {
+    "_next/static/chunks/app/layout-b20d2505b89a3f05.js": {
       "bytes": 12002,
-      "sha256": "637c76164ae716bc4a1f0d8f2453ff199e8bb61145ae444e3ec0b9adc8700afc",
-      "gitBlobSha": "5a15d47933916462af225b562956bca68f4a48ca"
+      "sha256": "aeae5b8afedb571d12d91da559d6dc395ae2bcac41d91525e67b81d8fbd7e9e8",
+      "gitBlobSha": "fa1de4b97527240ba3de350f69add565ac69f232"
     },
     "_next/static/chunks/app/library/layout-f5cbbc55aee41271.js": {
       "bytes": 191,
       "sha256": "7a02adb647fbd004c7da87a98a78a83d138f984e15b5326c640dd5139eb6ddba",
       "gitBlobSha": "b549d1e8785fcb59cb6b1b73765c40564aae11eb"
     },
-    "_next/static/chunks/app/library/page-69f2bfadf0d54865.js": {
+    "_next/static/chunks/app/library/page-9e84375001ef0650.js": {
       "bytes": 653,
-      "sha256": "b38bbb7ba4fed8bb2683246c380f66faab2531abcb70379f3764676358489635",
-      "gitBlobSha": "840fa85a9eae8c001647c7e6cd8ada9ce8149200"
+      "sha256": "b83f1795d93e3c557fddcd02c13b2a0220d28e8cd1aa02ef2fda7f8a7e98204c",
+      "gitBlobSha": "f65eec2d30159ca2c694685bd696cef07df5faf6"
     },
     "_next/static/chunks/app/manifest.webmanifest/route-f5cbbc55aee41271.js": {
       "bytes": 191,
       "sha256": "7a02adb647fbd004c7da87a98a78a83d138f984e15b5326c640dd5139eb6ddba",
       "gitBlobSha": "b549d1e8785fcb59cb6b1b73765c40564aae11eb"
     },
-    "_next/static/chunks/app/not-found-a666bc534910107b.js": {
+    "_next/static/chunks/app/not-found-293a332fdee1c0e1.js": {
       "bytes": 423,
-      "sha256": "2f1da9562fa26a5ee82aee7ec8d1da7054938476260220a7125ceb9050ccfeb8",
-      "gitBlobSha": "dad4d610d69b952fca48fd89edc0cf088a7188d2"
+      "sha256": "ee9443d761054eab7d8a9eee7be2e343fe7f2ef94c57867ff29314282ad43d3e",
+      "gitBlobSha": "f69969cc85cace61a1e50ca898765ae3dc861ffd"
     },
-    "_next/static/chunks/app/page-e7a1989becb4a298.js": {
+    "_next/static/chunks/app/page-ce2c5e66e3ed8147.js": {
       "bytes": 33223,
-      "sha256": "ae678b823e0c3585395b90212615124131d5f7835d0991df4ba19e4968de92f6",
-      "gitBlobSha": "c201ec86849683ee88446619da2542bad23a982b"
+      "sha256": "6bbc0672b326ba40f0a5eaef1fa745b8b732219e7bb893678185ee3918f6c005",
+      "gitBlobSha": "5b1e5d2b894bdef80ae546fc27c2f172b6ccc311"
     },
-    "_next/static/chunks/app/plan/page-7a0febda4f29e330.js": {
+    "_next/static/chunks/app/plan/page-c43b48f84b05b735.js": {
       "bytes": 651,
-      "sha256": "2e8f385a30c8bab62635040f0c1bee0785d22fe3cec3491e9b764de9f738136f",
-      "gitBlobSha": "235a4317ff3da8a964911896282c44d94e9ec4c8"
+      "sha256": "a6ead4545a16430bb691e41dbd800a3597ec0d9808f2d11bbf7570b23a73d597",
+      "gitBlobSha": "73c37bb36f6bbbff6e26eee2149aea35145fffac"
     },
-    "_next/static/chunks/app/pricing/page-29c9b10984be0307.js": {
+    "_next/static/chunks/app/pricing/page-69279a821626f552.js": {
       "bytes": 5015,
-      "sha256": "f96c04b2564e9f5bc146d8a90f2c720d1d882bb5b8d32baf2d6ae0313785dd90",
-      "gitBlobSha": "9351be8867d8699a8f542ce902389f96f8e5d686"
+      "sha256": "503f514d95e74d7f82beae8fe4cc392af38e5443dcc4eb163b113635f78831e4",
+      "gitBlobSha": "f515b8a0e785148e46306d3b0ddb3559d2787e67"
     },
-    "_next/static/chunks/app/question-bank/page-e157942084196df6.js": {
-      "bytes": 274,
-      "sha256": "1bcc21a9968b6b6c20984e4bc95a5e0ce57c4dffaa3a0ad9a7fa3cc48319d38c",
-      "gitBlobSha": "05e6e64dd2bd18274d31afa38a9c3f48c9734a28"
+    "_next/static/chunks/app/question-bank/page-af961ec6ecd66a9d.js": {
+      "bytes": 272,
+      "sha256": "0b2c61e2c33f4e7509a811515527f657188a039f37a2f4bc5e39184229b8460e",
+      "gitBlobSha": "6534a63100949135a9d3d09b4692faa339ff3ab2"
     },
     "_next/static/chunks/app/questions/layout-f5cbbc55aee41271.js": {
       "bytes": 191,
       "sha256": "7a02adb647fbd004c7da87a98a78a83d138f984e15b5326c640dd5139eb6ddba",
       "gitBlobSha": "b549d1e8785fcb59cb6b1b73765c40564aae11eb"
     },
-    "_next/static/chunks/app/questions/page-2b996410597256b5.js": {
+    "_next/static/chunks/app/questions/page-f8c12370b498312c.js": {
       "bytes": 249,
-      "sha256": "e23f87bfdd0febfc072bbf79e50e37947cd6b8d26a52c03508715d2ec68e0a98",
-      "gitBlobSha": "7f62d3e84df2d0df41e2eaea4a15d8818bebd577"
+      "sha256": "d903ccf8856d2b4d865565ee4ba5b37f6137377ec7a2dbb40b5ea76a96086406",
+      "gitBlobSha": "4b5cc02196e1b1e45384b24c3b289cd3ea591331"
     },
-    "_next/static/chunks/app/references/page-f89c8aa3049b3dcd.js": {
-      "bytes": 1996,
-      "sha256": "930ca8cd202a24d77785438245431cb91e61185afa0685c10f7e76b9861c584a",
-      "gitBlobSha": "e30cec12c36395138eb22de1afe825842bb797a0"
+    "_next/static/chunks/app/references/page-d6c9d11865a3c83a.js": {
+      "bytes": 1998,
+      "sha256": "87d943b90477aba412a8c224e906910b90fd7cb65e81cc654e8949eb0261c612",
+      "gitBlobSha": "f1186a7ceadc9be501dadcbf68dd44248b256b9e"
     },
-    "_next/static/chunks/app/resend-confirmation/page-4d34254c03fcc258.js": {
-      "bytes": 154,
-      "sha256": "75c3bb85404899470e1053bed199791797a0cb69abd294e7044932c69aa81ec0",
-      "gitBlobSha": "aaf1f4929d1669665221bd46c8dd49498fc8837e"
+    "_next/static/chunks/app/resend-confirmation/page-0421fabfeef6c7af.js": {
+      "bytes": 153,
+      "sha256": "2ed054a57d41327406d6e350903b1667b8519b5816823b97ee2a527482af981e",
+      "gitBlobSha": "042b9ab5d93f781690cca33384ff20e894894e3e"
     },
-    "_next/static/chunks/app/reset-password/page-fd638df5b90f8712.js": {
-      "bytes": 154,
-      "sha256": "6ecaebdd684fda8c5166d7bda818b31c57da85c2821ec5cb44ef017e104d06fe",
-      "gitBlobSha": "e21ea206407c212266830509a5ccae35b965ed99"
+    "_next/static/chunks/app/reset-password/page-bf55cbfd4f613163.js": {
+      "bytes": 153,
+      "sha256": "fa29a3e266be7ed8b0175c67e51e12f0b7de9a16dc5d544fc9e8bb7edc23fa4d",
+      "gitBlobSha": "49ffb019306d8ec672581233de69a7845ae6ae29"
     },
-    "_next/static/chunks/app/resources/page-a61940873aed6ee1.js": {
+    "_next/static/chunks/app/resources/page-0e833194c811f792.js": {
       "bytes": 2007,
-      "sha256": "f40a2eabca96b7aedbd7030c448598e1eec234e41a43254073c0a73da2d935c3",
-      "gitBlobSha": "6e7fd4029911108356caa4b645944b4d39005378"
+      "sha256": "35c0b6ea59f586f5379c7771802280e0035c2566a844c6768102458be147998e",
+      "gitBlobSha": "eeac24351a174a2333b50487f16eac9af5752a7a"
     },
     "_next/static/chunks/app/robots.txt/route-f5cbbc55aee41271.js": {
       "bytes": 191,
@@ -508,85 +498,85 @@
       "sha256": "7a02adb647fbd004c7da87a98a78a83d138f984e15b5326c640dd5139eb6ddba",
       "gitBlobSha": "b549d1e8785fcb59cb6b1b73765c40564aae11eb"
     },
-    "_next/static/chunks/app/search/page-fa455abb6a69cce4.js": {
-      "bytes": 5374,
-      "sha256": "1c9cbcd4344abfc720cd78cf7575b574326e34f84301dd4a5bf903814122070e",
-      "gitBlobSha": "e792975d8ec853342c3788f6228bc24414aa1d7c"
+    "_next/static/chunks/app/search/page-a08e9d76db1fe70b.js": {
+      "bytes": 5376,
+      "sha256": "af9f5290711dd16823893266b3820c672f3abc175f09dcc0f1a5c38b2ee8b9c4",
+      "gitBlobSha": "33798a7b08e1b472fe3a9201dc1c67fb55833b6d"
     },
     "_next/static/chunks/app/settings/layout-f5cbbc55aee41271.js": {
       "bytes": 191,
       "sha256": "7a02adb647fbd004c7da87a98a78a83d138f984e15b5326c640dd5139eb6ddba",
       "gitBlobSha": "b549d1e8785fcb59cb6b1b73765c40564aae11eb"
     },
-    "_next/static/chunks/app/settings/page-a7e2f296b7074d49.js": {
+    "_next/static/chunks/app/settings/page-598e3a28f45d5ebf.js": {
       "bytes": 2375,
-      "sha256": "69ac4cc28cc54894c2ec408ef051f5402f719dd1827de798fdffa848b5f8dee7",
-      "gitBlobSha": "673a7219c50b6eac1927f4b8661b6d9a32eaca74"
+      "sha256": "35f247a7a0b97309cc72701122a38eebad53faa7d5cb5e0de0045dd32b07bc3a",
+      "gitBlobSha": "0167b874f707291133e6b7ae520cc3bf6ceaa88e"
     },
-    "_next/static/chunks/app/settings/question-bank/page-d8fe7340cd1d0041.js": {
+    "_next/static/chunks/app/settings/question-bank/page-242ec9d33d6eaa9a.js": {
       "bytes": 7648,
-      "sha256": "03f96a9d337525407164e983e3a744730e9d69cdb0e6e4fc3d51f01ffede8ac5",
-      "gitBlobSha": "4c95e07fde6462bc9c26154af7352b35b0595a29"
+      "sha256": "99924f563f5d1bfa9a7968fc06fcb66baf90650ca03b8d3c720718745e021797",
+      "gitBlobSha": "ea8ac33b3c5b5d03a6507c789458110dff0aacf1"
     },
-    "_next/static/chunks/app/sign-in/page-b9460fbb2f174e63.js": {
-      "bytes": 154,
-      "sha256": "546e9fb947397930964433abc47a5395563d1e9f18569bbeb7da75f7ef647326",
-      "gitBlobSha": "8673b510bc80006c5dce8ee51a36aac89fd3307f"
+    "_next/static/chunks/app/sign-in/page-df5d0fe7b9195777.js": {
+      "bytes": 153,
+      "sha256": "16845b70272f6104e4f50fb5fbf0e13e1defe236a2003667cabcad12b617cab6",
+      "gitBlobSha": "b02c7087a528e0935934e6fd8e015a00c13e89cb"
     },
-    "_next/static/chunks/app/sign-up/page-6604b57502e1af26.js": {
-      "bytes": 154,
-      "sha256": "d19a9ba1e8f0058cccf8ea4845d0fc70a641b9db4eef48bceb34f8f475ec1f48",
-      "gitBlobSha": "f1be4f8d7b3eea2d16f06b0bc79dff19aac37895"
+    "_next/static/chunks/app/sign-up/page-6dce492b50f0decd.js": {
+      "bytes": 153,
+      "sha256": "267e9d102f963b8f2b6b164c0899f971700470ed193e716dccbe25e61f1dcf68",
+      "gitBlobSha": "f0fe80f52d5e98276f9404cfa391abe99e7bdfd1"
     },
     "_next/static/chunks/app/sitemap.xml/route-f5cbbc55aee41271.js": {
       "bytes": 191,
       "sha256": "7a02adb647fbd004c7da87a98a78a83d138f984e15b5326c640dd5139eb6ddba",
       "gitBlobSha": "b549d1e8785fcb59cb6b1b73765c40564aae11eb"
     },
-    "_next/static/chunks/app/sources/page-6b6e2aa693246a3d.js": {
+    "_next/static/chunks/app/sources/page-b8b1ece57958c95b.js": {
       "bytes": 1998,
-      "sha256": "a8136767a10f0780dc8ea254f0728c6e1b5d42e7546c203cb11e39c30fb522a0",
-      "gitBlobSha": "2990c939c208a960e896f0c636708e1348b44fdd"
+      "sha256": "7a10cb430c771584b985d72afdcc395701c1f2c2e51992df1e0a0052b7b252a8",
+      "gitBlobSha": "9246aec314fdc31628fc5fce2c244298bda9a918"
     },
-    "_next/static/chunks/app/study/page-3bbd79d91529cd7f.js": {
+    "_next/static/chunks/app/study/page-64a33889266da2dd.js": {
       "bytes": 2406,
-      "sha256": "567dd660cd3c7e9bc54309647f3a8769963a6c8134ffd8ba11a72381bbee865b",
-      "gitBlobSha": "5ed98d8658415c28d12a1ee41145ae7d14b2009f"
+      "sha256": "ba3487a3e170b494205383df81b56957ae2891f23a43abb19061c5e0feba3ff8",
+      "gitBlobSha": "8e6c2e3d1743c94c318458649d913135e69a21bd"
     },
-    "_next/static/chunks/app/subjects/[system]/page-7147e3b18da201e5.js": {
+    "_next/static/chunks/app/subjects/[system]/page-3b7c2ee52bb17893.js": {
       "bytes": 1919,
-      "sha256": "7bb74784777eda0530eff0ffc27a3cd8c37aaf2033013974f35b5f8444e9f877",
-      "gitBlobSha": "e88be37bcf268cf2b92b8a8e6c0d3efc00a468dc"
+      "sha256": "ba90e5bfd752ff430f03ae68b25f75255484f96111375b58962e9863acdb9b21",
+      "gitBlobSha": "ae2a607b5a2d5c1d11903a52cad932a66e7d79e5"
     },
-    "_next/static/chunks/app/subjects/page-ba2a95cb40339663.js": {
+    "_next/static/chunks/app/subjects/page-a40098da7d5b450d.js": {
       "bytes": 532,
-      "sha256": "b7147d8bde4305130e757f8c22fd08abeb81867ac40feb020d642ee047fa4c66",
-      "gitBlobSha": "c39afa0f3bde3cfe3bdb5f86e05334e33a223b7c"
+      "sha256": "d6e5987eb8a95f19ebd88c5a777f925540345c9887425a1dfee5ee3ee041f500",
+      "gitBlobSha": "e563937bfe9d8f1dcb39479d6c2b092dc8fafd36"
     },
     "_next/static/chunks/app/team/layout-f5cbbc55aee41271.js": {
       "bytes": 191,
       "sha256": "7a02adb647fbd004c7da87a98a78a83d138f984e15b5326c640dd5139eb6ddba",
       "gitBlobSha": "b549d1e8785fcb59cb6b1b73765c40564aae11eb"
     },
-    "_next/static/chunks/app/team/page-a15a2fac0c3fea14.js": {
+    "_next/static/chunks/app/team/page-9a219ade947a3893.js": {
       "bytes": 294,
-      "sha256": "516915556b2f10630dee223d8eb245abc529009014de822f57f97e4356c30175",
-      "gitBlobSha": "8dc15eaa383d5612a4c8bf8713e7d574eb665e91"
+      "sha256": "6dce2dd2bac4d75664b68e8d3fa2b2d2ffeafc271868d482fac4b8163b7e2a1e",
+      "gitBlobSha": "b7394d94c74a59ad43d72b62cdd8264cd025d661"
     },
-    "_next/static/chunks/app/telegram/help/page-fae345e2ec749cfd.js": {
+    "_next/static/chunks/app/telegram/help/page-afde393f3037d638.js": {
       "bytes": 6519,
-      "sha256": "40cd665a6926cb5c8e733681d1a4f69921ade8d0f94f53b460b6e9145256b5b8",
-      "gitBlobSha": "e757ccec6a1969ae1740d19ca9d119440d8c7e9f"
+      "sha256": "bfbc259061327b35cfcf6515478a4e03b921b19f9b2e5029e051cf5b7a456a2d",
+      "gitBlobSha": "6280fa09e414947c9326dbf123535659b8d9ff07"
     },
-    "_next/static/chunks/app/telegram/page-d2a53511c4f1ce0c.js": {
-      "bytes": 464,
-      "sha256": "3112976ce47503a05529ce43aa46dac38b0baa57daa941fb1c15a80950074620",
-      "gitBlobSha": "9dcbc908b59167f0942f9bbfee70cb27dba80a4e"
+    "_next/static/chunks/app/telegram/page-d5555a935d8a89cc.js": {
+      "bytes": 466,
+      "sha256": "9edeba25c5b5c6f2f9c5aa308361df019448654d200960ae17bad096b7f07e27",
+      "gitBlobSha": "7b8cea0ef543c4cb8a56dc4abe1409ae064812cb"
     },
-    "_next/static/chunks/app/waitlist/page-fb3105a735dcb934.js": {
+    "_next/static/chunks/app/waitlist/page-ed1a94c21a5a5cb2.js": {
       "bytes": 19077,
-      "sha256": "4821e312eb7a53c7f13dea65e52c66247b2066984cdf93e039c31592224e890e",
-      "gitBlobSha": "02e8a4b52d090194a0102dbe0daa4660a92ceb41"
+      "sha256": "7c15c477281bb247ada9542991e725fcbab7b4f6606cc130ef70d289832e3cd7",
+      "gitBlobSha": "91fa734df56a4dcdb7002e4db05d505bc98abd73"
     },
     "_next/static/chunks/framework-ea3cf4bc77941631.js": {
       "bytes": 219031,
@@ -618,10 +608,10 @@
       "sha256": "0973c1d64c88adc8e3c950410cb58b288f72118d5965b78049438deb8f2f9683",
       "gitBlobSha": "ab422b94a4fbe76275d31c0bf7ef334768b39cae"
     },
-    "_next/static/chunks/webpack-111447394897f33d.js": {
+    "_next/static/chunks/webpack-282f8632fa123662.js": {
       "bytes": 7259,
-      "sha256": "2ab93cde7f4fbf7877a70b4c30f227682ffd6ee1698d34d847b71c55686f5f66",
-      "gitBlobSha": "dd2346f742572f5e11b2e0d78b7f55cad100ee7d"
+      "sha256": "a1aed86782a90aba8654308c4325b506d5fb49b5465ff2ada1218d35bfb7370b",
+      "gitBlobSha": "4e4563ba8e450fd2f5de544c70ce546ff6f83f62"
     },
     "_next/static/css/00fe2d3b6fa5edbf.css": {
       "bytes": 2697,
@@ -653,6 +643,11 @@
       "sha256": "d0499b88a8df3a58494fdb9a833618b5e2904e827496ba50585c7283e2253788",
       "gitBlobSha": "782ee61a152b14ffb5cfaf6f837e6a7b966a6e6b"
     },
+    "_next/static/css/2742d70c71a38812.css": {
+      "bytes": 36325,
+      "sha256": "d80108dd8b87caea13cf0337bea910b49aeda371876ab141c579919c96abc736",
+      "gitBlobSha": "2270522a3dbb76c70aff381634dd7c5bea0ef8cd"
+    },
     "_next/static/css/3e9ecedb47d903f7.css": {
       "bytes": 33633,
       "sha256": "90c1b5f0fddb29f007afc9e92772e8ce6a6959a93463cfdb207a3f4367166963",
@@ -662,11 +657,6 @@
       "bytes": 22230,
       "sha256": "caf515f09d3c4a65e07d4ccc92fb062a167d984757ce2c7ba4dc67b331d30dfc",
       "gitBlobSha": "53a5c2af0ec5c47847058ad80a38f3b589b48183"
-    },
-    "_next/static/css/5b76da708d6ae340.css": {
-      "bytes": 36419,
-      "sha256": "0b67a15de8c8ff6ab9ba556be65d11e3cdd8cdfdeb2d714c55d7cdfc7fd7c5d3",
-      "gitBlobSha": "54b4a846a4ce3f1f47d3ef6696b5904b18e8aab6"
     },
     "_next/static/css/61d3bad2a8de11e5.css": {
       "bytes": 23718,
@@ -778,6 +768,16 @@
       "sha256": "090cbf7d9031a76ac1644e9b5a5a69702986520abe1ba44d67d5bdb35f9b40c3",
       "gitBlobSha": "f5e83e5bf7d0181a97fee483b605b859b0984103"
     },
+    "_next/static/dP0F4Y5k78r_7oZCxOBsz/_buildManifest.js": {
+      "bytes": 2083,
+      "sha256": "c386272b3b7caf9998c9492c9e03659264f3fbcf7bd5e6174c7cb2e036d23214",
+      "gitBlobSha": "71597c5d106505f24e876f920ce1f1bd75b102c3"
+    },
+    "_next/static/dP0F4Y5k78r_7oZCxOBsz/_ssgManifest.js": {
+      "bytes": 142,
+      "sha256": "479adea0e8327a326f2b744d5d8570cbaa03627911ca3d86e0f5f098a984febe",
+      "gitBlobSha": "2ce43bc10aa7417ece4b800e14e633d960805519"
+    },
     "_next/static/media/glass-waves-dark.2f8108b3.svg": {
       "bytes": 1306,
       "sha256": "e3abd0e113007f9203a8cdf2d42020d12915b224a8dec858c1cdbab8400d78ad",
@@ -790,13 +790,13 @@
     },
     "account/index.html": {
       "bytes": 26241,
-      "sha256": "50fb264f63a7382ad56c8bf3bee002626aa910811ccb781b1a82220fa8587143",
-      "gitBlobSha": "34539fc17221af2b6d167d59f3f81e3c809cce0d"
+      "sha256": "3c724814109e9aeca7ed92cbcfbc369c7bf7e6179b7bd85eece1f60f675761a5",
+      "gitBlobSha": "0dce3e0bb3c4d186da5dfb548b4343bcc6a2c5bc"
     },
     "account/index.txt": {
       "bytes": 16352,
-      "sha256": "ea17a855800f61ff8ef1b2009dcfd7c2aad3c00243590f7bdc91275205c58aa6",
-      "gitBlobSha": "d703a6577f19a2bc30ca77dc8f315525e9945c50"
+      "sha256": "03a07f5d4b364da1e8e1224b2e031c3bb16807d9a817a79b843a95bebf68e532",
+      "gitBlobSha": "0415729067d2b63b9884e8a95cf931e66a4bc307"
     },
     "admin-dashboard/.nojekyll": {
       "bytes": 0,
@@ -860,13 +860,13 @@
     },
     "admin/index.html": {
       "bytes": 26442,
-      "sha256": "337e1fc4208350fcfd7764ac3fd9c9f593cc1fc4c7e79ff320da77b9dd0070a2",
-      "gitBlobSha": "4e1d744d1cd85ae2d44b60362978cc2fec14215e"
+      "sha256": "db79f0e04f137f495becce6315f13a038a7e53902028d03733d1d86da96ba1c6",
+      "gitBlobSha": "e21536cada89236ff3ff71eb28ded3c3adc4efde"
     },
     "admin/index.txt": {
       "bytes": 16406,
-      "sha256": "0df2a268c3532620dde8bc144e757890fba90533532b61409966ab98214567b5",
-      "gitBlobSha": "23ae6ab968138773a1feddceb45a82286c56a6a7"
+      "sha256": "3615ff0e0f0927e84e0869b81b4a8df7294a50bb796934b91c31741995922a6f",
+      "gitBlobSha": "e90d5154f3ae4662b7c3dcd3695a01324f697b86"
     },
     "anki/sql-wasm.wasm": {
       "bytes": 684897,
@@ -910,33 +910,33 @@
     },
     "auth/callback/index.html": {
       "bytes": 27450,
-      "sha256": "d87449ae6c2b5716cabe5592405a9075b9727153f5d99b6c4777f60381954f86",
-      "gitBlobSha": "0dc813cee6bfbf2ef539daf02021a5f3aca5eb35"
+      "sha256": "7951f87e7e12cdbdde931d5f74ea9a2e76e1ca59896382ea115cdab2768191a1",
+      "gitBlobSha": "647eb334c0aaafd5e7daac3f5086f1215276b7fe"
     },
     "auth/callback/index.txt": {
       "bytes": 17150,
-      "sha256": "0e163d2b1f9a56b2e89234bb0808a3eb4b7aabc7831d22f1268c353df244d5c8",
-      "gitBlobSha": "5274e10f56fc1f7415bf086049ff83f3adeab063"
+      "sha256": "c691932786aee59db1fda3e6b96ee874d6673b5dbf8eb619c66d37453fc60308",
+      "gitBlobSha": "0c787d0c94d4e49c1eb0a6652525ceb29cb68e5b"
     },
     "billing/index.html": {
       "bytes": 29147,
-      "sha256": "b0017d410959e7335451305b7ba48d30d4ed0507b75f393fbfde6bc8fb98aa1e",
-      "gitBlobSha": "c7ac042e8c26fb74185cefbe25dda8ee173a00a3"
+      "sha256": "594e99a1a75cdb60a27e5bdef0efd36e5b7f1e8462a8e656c3f03a38089ed9f1",
+      "gitBlobSha": "5386de5adb51b73d7f41dbf362bf72054a3e1854"
     },
     "billing/index.txt": {
       "bytes": 18255,
-      "sha256": "f36971acec40070552129911a0d36cda557c2543db268a1e9c0170a4b03ff383",
-      "gitBlobSha": "3f8140d42933bc40ae0509904a9835b2c5ed3f40"
+      "sha256": "640c0a85010b97733de02ab3c2256fd799eea1c88bf23ed1d07fd11ef2df4aa8",
+      "gitBlobSha": "28ae7419e86cf75e74ea717dcbc1876d3e9bbe0a"
     },
     "book/index.html": {
       "bytes": 28806,
-      "sha256": "8ba0e52ee76bd3b507f6e176aef255701a8b737cfa3c07753adedad5c46f1444",
-      "gitBlobSha": "d05e0138a8fc9fa20aca4d0020d3df3b0c65caa9"
+      "sha256": "52c8dd42780d96bd41bab8909624a364ac5e4aa0b5a0153819022237831381a7",
+      "gitBlobSha": "f1734772ba78d1e2eacb26210c21bcf112371e6d"
     },
     "book/index.txt": {
       "bytes": 17737,
-      "sha256": "642c53600ee5bd6c0c79ff3197a26d0dfc4eaf6d7a98223aa658154f2d33dfb1",
-      "gitBlobSha": "4e99dac01360372115e9b3fdcd05b093f1fbf4da"
+      "sha256": "f7db94a92b062baee6663278b6b671e961425e4c0957c60db67e4e4a6e8d3771",
+      "gitBlobSha": "38f62494f5038070286d9c0c7ac5cbc114112b51"
     },
     "bookshelf/first-aid-2026.webp": {
       "bytes": 142132,
@@ -945,43 +945,43 @@
     },
     "bookshelf/index.html": {
       "bytes": 28448,
-      "sha256": "9864db92f17a1f25b5e31d9d44fc46b1a8a9b612ea1713f9197958a62c09e8ea",
-      "gitBlobSha": "0f50cab3a5bea5b72901e53c4134112ee2682f3c"
+      "sha256": "09b08f343c2dc246a38f781782739ff0f7dddee8d39e91c6ec406f1138832656",
+      "gitBlobSha": "a5c1647825d7dfe51889d5eda27de7558c453ec5"
     },
     "bookshelf/index.txt": {
       "bytes": 17515,
-      "sha256": "3b8b91d1a1e7d0f00c1e78d6e1015ee827cca05ea15174b1e2510ac83fae3968",
-      "gitBlobSha": "74eff3cf921899e4bbf8883c7501f1005a78ca12"
+      "sha256": "1a0afeb0d89d927f7c3e84bd79ed2a13ec68bcf0d9ceea265ef0116b20220d3a",
+      "gitBlobSha": "4a30d496e4fb72e37be697f571a8f3b1b7306008"
     },
     "calendar/index.html": {
       "bytes": 32552,
-      "sha256": "9774c38398db00cd118d4253c64148b500661da2cb46cbcadfbfb55ab6c52fb6",
-      "gitBlobSha": "b0349a2975a9b0c2624c8ae0efb8af907d390ee2"
+      "sha256": "78a9667f9a66a9ea23d274f9ca17da33e5851f7e2831be3fab448a5bdf354c63",
+      "gitBlobSha": "11ac7666578621742062f05adf0923b5c1435f67"
     },
     "calendar/index.txt": {
       "bytes": 19797,
-      "sha256": "1e0584f6871d8855593bc925abca35e89a03e9c62a584a48e3b05af845f93b94",
-      "gitBlobSha": "25417b692fbc3a59c1d958a33f3be236803bf58a"
+      "sha256": "b78597cfdbbe39c9a42a6783a0a9db6fe3a612499dce61b1d4905a9032421dc2",
+      "gitBlobSha": "f569dd19484f887caea961c67d42bda662393d30"
     },
     "copyright/index.html": {
       "bytes": 33946,
-      "sha256": "5ce42a3b3d1b708221695cea93e376be41217255f17e7287f3d5befe40d62a75",
-      "gitBlobSha": "d119eb5f18a9037d485220b1008357a51ce38db2"
+      "sha256": "249d4d25fac26f5e3c9545ae2637ba7bcfe1261ba8921850a0ebaf17d215f1b0",
+      "gitBlobSha": "944aad707d8d71d381f6119d7107ee8b698cbeb1"
     },
     "copyright/index.txt": {
       "bytes": 22540,
-      "sha256": "b18d8ec56c5bb594e48c8e7bc427446425287bfed717879a4dcbc76a16de3c5b",
-      "gitBlobSha": "4a90496126613f807dfa2c12b7527657b2349014"
+      "sha256": "8ed45d4fc1ad821c10b7a5c2f3fae3019dac4b0d8fba7cb45c599da8d7c1fecc",
+      "gitBlobSha": "fc75abd9b19529df9778f961f33f5d707d2a6b51"
     },
     "dashboard/index.html": {
       "bytes": 31310,
-      "sha256": "70035150b44fbcc431aac43f12c17d689e903e41b88c0c55d7c8e0db9f3d3836",
-      "gitBlobSha": "1a7acd7d1db6e8aa658de882ec7e2957ff3503d5"
+      "sha256": "ce8c87d4bf3644060778741d8733dd8bdeda61df1714c490444e44756942380f",
+      "gitBlobSha": "89a973a6af8ed83b7a44c9a2eb3ef0091b4a4bc9"
     },
     "dashboard/index.txt": {
       "bytes": 19073,
-      "sha256": "f45f49692918ce8da42029e8effdf4472a75335658ea7244ebe03753848274ea",
-      "gitBlobSha": "2c263479770982f90c3ea43979574374ceafb1a5"
+      "sha256": "49a79fe8cf8eb30ac8a83ea37eb94f4073271b28965237dc05486e19185bdebf",
+      "gitBlobSha": "6869bd4f2e0c03c05d1253deb65ac721ff8d3ffe"
     },
     "deck-media/mnemosyne-v3/004ef2bc3d6a1ffa9baf35fb03f6213033442e9ac6f6728062fe8527aeb1197d.webp": {
       "bytes": 21950,
@@ -11580,8 +11580,8 @@
     },
     "deployment.json": {
       "bytes": 525,
-      "sha256": "e204fcabe019e4e87a314eacdf7ce0ffa9805fa2c72aa650474114a368be35e7",
-      "gitBlobSha": "beda37bc7b19635015420fa82ed6c11913ebb3d7"
+      "sha256": "f934d0a7fd52bf36ca3b19b9cad5922a3330878592efeefc0e676ced2c1f9aba",
+      "gitBlobSha": "62241997ecc39ca1e37cbcd969ca0496601600c1"
     },
     "downloads/Crosswalk_Validation.md": {
       "bytes": 4876,
@@ -11595,173 +11595,173 @@
     },
     "experiences/abdallah-dababseh/index.html": {
       "bytes": 46493,
-      "sha256": "6043a2270fa8d07d4ca55e12da82ff8e5316d407a25d60ef802d935462789f22",
-      "gitBlobSha": "395157d61e60e9fe96d2a951653152c2f5458f4c"
+      "sha256": "24248061062aef0e4f35c97512e9b403ee99f4e4c282486d7ed4b6081c2de926",
+      "gitBlobSha": "53eeb3941914a2e4e819745238bdc3dadca3e967"
     },
     "experiences/abdallah-dababseh/index.txt": {
       "bytes": 33962,
-      "sha256": "fea17359804fe8ce83758a1c94f4c109bd80a884ac54e93a04fbe96e77dd2fd8",
-      "gitBlobSha": "3e2b1587eebd560633733109c8c80fec3e3eaa33"
+      "sha256": "68c04cbe57d9965a86fc6e24df58f2ecb44a0b9085ba52c64c6f8a7de2d17d1f",
+      "gitBlobSha": "b411f3d4efdf722d3715fcb32ac949f79cdeb860"
     },
     "experiences/abdelkareem-abu-hazeem/index.html": {
       "bytes": 46711,
-      "sha256": "c64083cee9a85483205b9242aa69f36e217e3409a32dc8b229fc6807beffafc4",
-      "gitBlobSha": "4b73efc29f41307714069e4a3aa5cac482eef4e8"
+      "sha256": "a44f0551198437befc88c4907800f94444b6f4c0a26ca937321844ec2a7d97af",
+      "gitBlobSha": "e31fb4214e5b3efbc117221f629de9697c911ba6"
     },
     "experiences/abdelkareem-abu-hazeem/index.txt": {
       "bytes": 33962,
-      "sha256": "f29491dc4c9d85be2a79634a6eeee4be30c55d6c13d0b2cf150af163f60a5993",
-      "gitBlobSha": "aee7e6f7e2edc775bc9c98ebf4833c49e03d2e74"
+      "sha256": "3d405aaece252dedf812233e49d408794380c8e5f43d8a8b5488aedc90154bbc",
+      "gitBlobSha": "b07c92fec965e772eb0fee878df887ae925cfa12"
     },
     "experiences/abdullah-hyasat/index.html": {
       "bytes": 50257,
-      "sha256": "6f8cf7b869cdeaf4ea7cf321d4eea10bd03e21901eafb8c1cf4c3f93957b0a31",
-      "gitBlobSha": "91efe3bf0e89853bf11c0a7111b0b6a7eef9cb8d"
+      "sha256": "6a6aa01f06217678f03d4ebbb4d1ba049d0b06583489c982c77ef22f71bff639",
+      "gitBlobSha": "972814b670b55e6dc6605b233aec59a15ce46fb0"
     },
     "experiences/abdullah-hyasat/index.txt": {
       "bytes": 37245,
-      "sha256": "80867d3efe26ef27ea79ed78d768cefefa90addf885cd6ebb469bd5508200b7a",
-      "gitBlobSha": "0914979a6b4e05bfafe901b466981236733345b0"
+      "sha256": "5f4e0046f5c4ad5fe30fdcc4ce5cb0e2cf7bdb660047f75b0f8d7502794d8f6b",
+      "gitBlobSha": "6a72f1651f734ac6811f82c21f3f6723fafb2f6c"
     },
     "experiences/ahmad-abueisheh/index.html": {
       "bytes": 50723,
-      "sha256": "559460fac242f3ece6e3f0e175d8df0e6fbc9d56b24bf176bca89f7dfc7da8b0",
-      "gitBlobSha": "43be71ef087aecfc97f4ffcc15cc6e356e1e9995"
+      "sha256": "337d767aeaf6f1b3b123b02f6f7d8db2dd318626f03d78c0843726c550aa90ad",
+      "gitBlobSha": "d70cc0624fc88f7faebe04f9f6bb623756aed619"
     },
     "experiences/ahmad-abueisheh/index.txt": {
       "bytes": 37886,
-      "sha256": "82cedb6b0affc13e0bf15a68ddf65dd74a6590659bc11eeda3ed51840c6bf10a",
-      "gitBlobSha": "1aa7949c670db3b92cc91c958340bc16d49b22e2"
+      "sha256": "eb1652bb7b6446c064db6d251f60e746115ab35a52c5e1b97cfb4fa4eacd4047",
+      "gitBlobSha": "23748fea6d550213b1b09e9458abb7c23265de92"
     },
     "experiences/hakam-mohanna/index.html": {
       "bytes": 52544,
-      "sha256": "f8fcdfb7151b6f6124e1e11d1a51f30d3bb36266a07062bc46ccdb84b3545a13",
-      "gitBlobSha": "6432235a01e5c31ae4dec8ae7980104d19d55cca"
+      "sha256": "78e358e87807210ae84af229ebc6af86ef22ea79eabdb9dcccf97cad340df1a4",
+      "gitBlobSha": "2355522ad4ce22e7165034fde43965bf5fc4bdb6"
     },
     "experiences/hakam-mohanna/index.txt": {
       "bytes": 38850,
-      "sha256": "a11c13b11f37efe8ff92dbdbf87ef365376e84bb5668bef3ca1887e52373b8f7",
-      "gitBlobSha": "338faf74c37acccef9b696f2d2bd9e43b4380578"
+      "sha256": "b924da96bf396657ed62620772a6b8bd7411eea5e9dae6655b54311aeb70b562",
+      "gitBlobSha": "97edbc18ee7c42e96d5d116a3ce417800c537037"
     },
     "experiences/hamza-al-jarrah/index.html": {
       "bytes": 41843,
-      "sha256": "8df4f4a5ac930515a0acf02f8599a92fd1df84490c62840a22b9ea6f7c267468",
-      "gitBlobSha": "95661d9704e53a4efec3519fac583f3aafaa0bdb"
+      "sha256": "15b3683cc5dfd6bd9fac7f591cc88311f8b9955612dc761732f7747759e3ebb4",
+      "gitBlobSha": "2e7bf38d8a61d5af5094916565f4eea891a74ec2"
     },
     "experiences/hamza-al-jarrah/index.txt": {
       "bytes": 29399,
-      "sha256": "afe0916e28bc9f92f20c0b8f00f3fcba643f8f0d5d5eb23ff7b7edefb362825d",
-      "gitBlobSha": "773fc8d0cdd6d8d8260a2ec44b60c00c9dc94577"
+      "sha256": "94cad08f8ed467544439e0074597c9b08cfa818593b9fdcce052b1e87d37f81e",
+      "gitBlobSha": "27f73cfa6eea7888f48c5bbe29940d2fc3a31f35"
     },
     "experiences/index.html": {
       "bytes": 28722,
-      "sha256": "117767f3552c288b1f28501cc42a59c4a74fbb4c26183fc8f45d08452f41a12b",
-      "gitBlobSha": "005a87fb8753260ae82fc903a38370ee0469a1c9"
+      "sha256": "8ba4e3a2a693df7c986767aaad5bf781de734862f5721570325193176610c49f",
+      "gitBlobSha": "a90b4361eb23a8943c06a1a39883375b42d92f1c"
     },
     "experiences/index.txt": {
       "bytes": 17732,
-      "sha256": "aeca7e9ec1ea154f78d02c0a0972aed076a7288917897256557a03e866526e2c",
-      "gitBlobSha": "4f3fe49aedfe993b0a71987a603c8faae0402bf1"
+      "sha256": "18489095c0b0b370b27c5273dd27860054ff80939f9e2938462f8934368c47cd",
+      "gitBlobSha": "7977f9ec9c9bb92c8ac93ebeafd04fc5a82b4aca"
     },
     "experiences/khaled-abu-kalaf/index.html": {
       "bytes": 44937,
-      "sha256": "54752499ea6a7c771fb62bf86f3866b399e8baa4aab98e0f739cf07e7f4adbe0",
-      "gitBlobSha": "1e70238f205882886e43ce9a0fda5c613a1f7c8e"
+      "sha256": "41ba5c1cbdeb4d3a9066f65df255d4a8828905edfcfd2bcb31899935c00b0b07",
+      "gitBlobSha": "5e18fe69653ba2a6f6423d00110c8f095b48d442"
     },
     "experiences/khaled-abu-kalaf/index.txt": {
       "bytes": 32378,
-      "sha256": "d0a647112fd94e8b225ce3c0c3b08c7fc3ca1dd6f4829fb349d358828fbe2d33",
-      "gitBlobSha": "8e4c3d1869bfb3884a5ac6214f1e9f5e74a08d64"
+      "sha256": "194465cd48b102b737ebfc30cf734229ed2ce5624fc115ec34582ea93e153466",
+      "gitBlobSha": "105ad0a889b93cb9a5b444adffb48683dff5784f"
     },
     "experiences/malek-qutami/index.html": {
       "bytes": 55513,
-      "sha256": "02f6693c1ede666f497dbcd694be47b7492d8854b5e368e765a6b5c8a6814d1c",
-      "gitBlobSha": "93ea460e6c91d14052b3a06883f732b154e6d181"
+      "sha256": "9b7d9c77c8bc6aaf1b695775eda0057ff7e92b3cdbe4097c77791b31be44a1e2",
+      "gitBlobSha": "4875164a032525b1c79767073758a8b23e14ec44"
     },
     "experiences/malek-qutami/index.txt": {
       "bytes": 41926,
-      "sha256": "3f2bf4ce6923a017525f4e2cee3c613a3fc187181513e17f8acc7ad19a0fe5c6",
-      "gitBlobSha": "82191beca8c1622d965af28da1edc6401e3ccb8d"
+      "sha256": "fd945eab624f966a082a6e82232b146aef7fb1feae9a0944ffed7b3bf6780718",
+      "gitBlobSha": "4912bf7c6d7c74c70bbd017f215dd99c88e28955"
     },
     "experiences/mohammad-al-khateeb/index.html": {
       "bytes": 45360,
-      "sha256": "9e8cccc2389608aa9ea6b1db107f4714e1dfe649dd88bea0d13f7c51ffb72cb5",
-      "gitBlobSha": "cdf72826f6b477d32859cc241f4a3031161d4030"
+      "sha256": "88370b430add38b78c8424a07e3e6f54f5d851c426034b1ac27823c01fa7585a",
+      "gitBlobSha": "1560894f45a318f90d9af18af3b89125ce9ccd2e"
     },
     "experiences/mohammad-al-khateeb/index.txt": {
       "bytes": 32315,
-      "sha256": "e6426d3dd66faf3944d5a1e63bd80a2e9f4a5c3023c0d29245c1ea1def07127e",
-      "gitBlobSha": "3d3b3b3e170fea76fc5e791039398225f2d2e27d"
+      "sha256": "f8641da4823852f0a69cd55a324c0b46033d89b0d92d743f31a25ccba462d601",
+      "gitBlobSha": "f30e02261cfee82643f2fcb20f933db5fec122fa"
     },
     "experiences/mohammad-haitham/index.html": {
       "bytes": 46877,
-      "sha256": "f14b988b8b0942eaeb07ff5dd621fbaa8bf1205bdcba3556aff349a4a08db6f4",
-      "gitBlobSha": "6d5e3aac63e132299a7f6fcf3e312ab3983d0dfe"
+      "sha256": "ff9cb16c74b078b2e86e976ccbaff2f76649423113e10f4ab639ac3081a6f78b",
+      "gitBlobSha": "8dd088b6e304f6d7563c820e09d176a16bdf45a6"
     },
     "experiences/mohammad-haitham/index.txt": {
       "bytes": 33918,
-      "sha256": "f5e7da4e982f04b0f3538fd6c29be2d721be0677c2d6d6e05eef416c8ac4f3f0",
-      "gitBlobSha": "f5c01cf45f428656b5a24bec27639c0a08e5c735"
+      "sha256": "b731015be2788ebbfe7213d48599219b9d566750b9b6482fa06dfa89a4114457",
+      "gitBlobSha": "89cbbcddc08b9775f99ff28145498e6038443bc3"
     },
     "experiences/mustafa-elayyan/index.html": {
       "bytes": 51318,
-      "sha256": "f51dad0d2ddd58117303319f12724c3ac13d4758cbf1b56f62239d09e95f6068",
-      "gitBlobSha": "257436836dc94be4f0ffaf0f2e85087db92e428c"
+      "sha256": "b93c7406f609d39269d8a965bb3b9c726e3474241efac9bf474320402aa89d7c",
+      "gitBlobSha": "cdb1be67593d0c7661606888a12d8e3a79de5b79"
     },
     "experiences/mustafa-elayyan/index.txt": {
       "bytes": 38148,
-      "sha256": "5c732cabfead380e0b80efbc784f32174398cd57ca8249a02544b6ef7a4fcb18",
-      "gitBlobSha": "4f8afcb3bf4adad1a38fc3edf1348df3ec5d41de"
+      "sha256": "a1c5f95427935543210324d7acdb4c576aa5b74e40bf327e334c2de46b788cc8",
+      "gitBlobSha": "b7d56f7b9f106bf03f1a7244f705e063292386f9"
     },
     "experiences/omar-kreishan/index.html": {
       "bytes": 57816,
-      "sha256": "ca09bc842b176dd16de3df195f721cd76ed1c717786c5da5a48d7b42757c01f0",
-      "gitBlobSha": "b489c412600c1cf8e27da0aeb774245e2b581b0c"
+      "sha256": "773759c22163f9dc04595e3c77b4c77d93a250f7c7cd6a7efb2d34bfa3665bc4",
+      "gitBlobSha": "f2b5249d1805d835c569765c70b275598dd7aaff"
     },
     "experiences/omar-kreishan/index.txt": {
       "bytes": 44753,
-      "sha256": "f58ffcf88fab10d704a615e1856148ae46052953e5fa7540feb3b98051fdd259",
-      "gitBlobSha": "7472551e6d60ce25fb08e96f1e48095cd19515ba"
+      "sha256": "53547748bb9dac2ba61cb5d785844e8a6167035e4314f1bc10b513573d36dc5d",
+      "gitBlobSha": "3b1111c3745565db118cd6da6a7dae5ff1e387bf"
     },
     "experiences/own-khreisat/index.html": {
       "bytes": 41598,
-      "sha256": "9c5152b6b320893a084bfccb1f117ff673544d7ffbe8d1c29ec88a99d61eb1df",
-      "gitBlobSha": "36ca50e30d36cf291a43f992d33bba2e1087e696"
+      "sha256": "cc803abf3cdc0699e0cdb3ffc5ec1da3a39cc7dff932bf35e4ef52ec1edb59d6",
+      "gitBlobSha": "f1720e0d1ed7cd11d75f583cf30c44ca7453ef2f"
     },
     "experiences/own-khreisat/index.txt": {
       "bytes": 29133,
-      "sha256": "e95fdf46a23d9636f75c7ca79f97908467da610912336079f944bd0fa74d75b2",
-      "gitBlobSha": "8e529a5748891431c55d03d80199b7ebb9050176"
+      "sha256": "028bb1f8f1715925c467381e7152298f570bae6e9c7908a86ff37de0cb671627",
+      "gitBlobSha": "f39822e1bcaf6011ffc3bc8cf4cc206e009326a0"
     },
     "experiences/saedd-suleiman/index.html": {
       "bytes": 59849,
-      "sha256": "9cf70738ddf15dbe395c596eabb8f521b08da05963970f322465ed65eb8310c9",
-      "gitBlobSha": "34248705cf2d64b7b7158e7335c38fd7c7500605"
+      "sha256": "2f8df98d47c93d99030a2f42a9a6c7f75ae57b164766b0636b0ce59cca9c138c",
+      "gitBlobSha": "f88386ff2421429f6707dc67e9eab8520ccfcd5f"
     },
     "experiences/saedd-suleiman/index.txt": {
       "bytes": 46478,
-      "sha256": "73f9eaf4302c47803a2b02cc2c8b179eaa396727a94ca62ac7a00a32747f4052",
-      "gitBlobSha": "34d7d8a8fb11f8c5b7c6832adee9a14061ff67ca"
+      "sha256": "b2eb68237a177f85ffc84933cee7a10cbd786108df0a1ff5b916e5353c2dac5c",
+      "gitBlobSha": "d30889f326bea5ace2d86abef7754b87ad817b8d"
     },
     "experiences/tareq-hussein/index.html": {
       "bytes": 48116,
-      "sha256": "d559eaeb354cc55dd16e0fd1cc1316f9bcfd4d790beb89f664d2b11fc26d62ba",
-      "gitBlobSha": "2ec179e41a0012ac2a3f4edf99417a3ba941e312"
+      "sha256": "cbdf2da95e34e78162d286362c3a2f2d9fd227d5839a9cd07161bd9f7348d551",
+      "gitBlobSha": "481cbb68306c692977175ab27c9ed670b46c8409"
     },
     "experiences/tareq-hussein/index.txt": {
       "bytes": 35276,
-      "sha256": "01c44e3de3ee1a6a4da455d55fca076b9163f154d2835de8ad0f12b22cae33c6",
-      "gitBlobSha": "9af400a2a13a453764cc9f7a3cf66c98c69052fc"
+      "sha256": "a0820b5bc85b1b9d0ddeae6f3b0976d9272a6663d9330bc6b461e49df2efe2d5",
+      "gitBlobSha": "72af44e594a829083cc7b5ef53de40922b6d467a"
     },
     "faq/index.html": {
       "bytes": 43287,
-      "sha256": "e2ffcf41c03594f199527019a093e3b4abd678823a8ddbfa210f140a8c402d3a",
-      "gitBlobSha": "dec38df4dde93cad330b7358e8fd9aeeda5c6485"
+      "sha256": "4ce6aa66ebbac979f72444cc1fd56ffb46c7c15487eef5f35c56355580622659",
+      "gitBlobSha": "c1af341d3fd51d7a0fd8e8f8944bcf1b96ca2acc"
     },
     "faq/index.txt": {
       "bytes": 25140,
-      "sha256": "904ee3e11f200b340427d9782608bcfbef849ee7f657a2f0d9d84dceefed124e",
-      "gitBlobSha": "62432832fe4a5e167c0e8678c38503d838876bac"
+      "sha256": "40704f8f16e3accbe4cf44f6bad4234d73c3536453c02d32ae6fc936960f84af",
+      "gitBlobSha": "6295ace49343e128091f1f2e2684f5bc19307f29"
     },
     "first-aid/2025/100.webp": {
       "bytes": 145746,
@@ -20455,13 +20455,13 @@
     },
     "flashcards/index.html": {
       "bytes": 30029,
-      "sha256": "afaa7f82e09dec1cae6225b41539bd21116fc75541d54957ae076f1161c3a38d",
-      "gitBlobSha": "add8cfea7adb6691e5103f3d1e5da9f50c5a45c1"
+      "sha256": "fb750e61699f2140e7509a720656b6c3dcedcc7ebdba3da11b96a5c0bc12a5be",
+      "gitBlobSha": "fa2fade051f21d7445b3075bf051b86e0559b6bb"
     },
     "flashcards/index.txt": {
       "bytes": 18243,
-      "sha256": "7e1a737a85d66b4d53f7d919a80a3dbcec94de86fde762303e386691121fb2af",
-      "gitBlobSha": "7d96e34c88f0452b3c06b06032212f9d8ba3e657"
+      "sha256": "060fa424a5c84ea3a178c7188446e1c2849300b2108bdaaf80b0c6549c5cbd8e",
+      "gitBlobSha": "d71494e0f5b93fcec1f739467ab7c81f9439363e"
     },
     "focus-timer-sw.js": {
       "bytes": 3635,
@@ -20470,13 +20470,13 @@
     },
     "forgot-password/index.html": {
       "bytes": 28315,
-      "sha256": "122455004bb948e310c94cd470773d577846e4036b08686eb0d5197ef2f8371e",
-      "gitBlobSha": "787e8e7632681d1da702c1a6bf0040f136756e5c"
+      "sha256": "8486ebd0bf108b67d58a09748738b9c9e3162d0719ef4aa09e2013a8a78d7258",
+      "gitBlobSha": "5dafc8c2703e23b3931e51f644f64aaaa086cc36"
     },
     "forgot-password/index.txt": {
       "bytes": 16739,
-      "sha256": "7f1190b2fe5170fb34966e0e5ebb1c6591eb62514f726260bf5c9bc96c57dc90",
-      "gitBlobSha": "0526f87e8cccdf2b5f7a94749ad2c0d5f3bf5273"
+      "sha256": "0ec3ef9511ca5f92b82f33d9470eedc51803a5ed21b6b8251dcf94bbe39ca004",
+      "gitBlobSha": "1c38e1618e9651330b5048924837fdc37db0e016"
     },
     "glass-waves-dark.svg": {
       "bytes": 1306,
@@ -20495,33 +20495,33 @@
     },
     "inbox/index.html": {
       "bytes": 28281,
-      "sha256": "a04faacb23eed50d99849d30d27469b4080e3bdec5638ee966da24747b552c74",
-      "gitBlobSha": "04677a530fc87b4d1019e90b44f5f9dd8c4965e5"
+      "sha256": "3a949cedfcc8cc55c96913e8ba5d82c4521ce660fde8a8649e1cf9511e86aa00",
+      "gitBlobSha": "b81b64c57a1a62a97eea27129091ba49ed3d903f"
     },
     "inbox/index.txt": {
       "bytes": 17451,
-      "sha256": "c3ee6dc2aacc944e4b8c966b2f3e74c1f3a26dc75facd7dcc93af131d375c486",
-      "gitBlobSha": "c414a7672ef8dd9289c65293b90380937064fd00"
+      "sha256": "48c10a88c7a16641816acb53414f7d93cff0fd95e70c92c5c4a9166e29632c38",
+      "gitBlobSha": "24138af05ee4bcc657057231dd67645a8c3cad63"
     },
     "index.html": {
       "bytes": 63269,
-      "sha256": "93a989e9cc12a99e5ef07befe3cb0b4b768de0152b22517c147d5cda6a333806",
-      "gitBlobSha": "7d674f8a0de22d3aaa57f6267ad4bc493c4e0cd7"
+      "sha256": "6664e95b6550a9b65efe886c833de85bf6cbec1df8faa804401f6d0a9c5203d4",
+      "gitBlobSha": "59bbbba36b433a60762b23df7017c3539d1fa36a"
     },
     "index.txt": {
       "bytes": 17690,
-      "sha256": "8f463599ab78e021b635168c0dc079ac61049bcef64e9d1964c3fb380ccc80b2",
-      "gitBlobSha": "2121288acd301093e1fcb30fdb0ce08f5c286b24"
+      "sha256": "b449d1a46087a207fbbd3eccfac6c9d7af9ec69c3fac00bf187be8e55c50f4ff",
+      "gitBlobSha": "b13d2214dcc839b922c8696804b93af1095f90a5"
     },
     "library/index.html": {
       "bytes": 29763,
-      "sha256": "ad958f63d7d7e54217713b327113f2d5c74ae0972dddc560356ed035b6f50d8a",
-      "gitBlobSha": "999e24ddfa3546a3596c46f9ab7b542db0953baf"
+      "sha256": "1039e812394b35c7913a2b08b2af355d022228de24f71c28b55361d7ddd7bf28",
+      "gitBlobSha": "70432ee7e0f9c1cd0aa77281d96753070a3f4abf"
     },
     "library/index.txt": {
       "bytes": 18392,
-      "sha256": "13574aee9c774f7613394039199910c23d14091a370f3e3ec453724572e12274",
-      "gitBlobSha": "3d97687b173f72c1b38c11b80281ce467ea1c4fc"
+      "sha256": "369f48f1269808ca23f0d9322de470be6128204cb2e7a3106394bbf1fa91c04b",
+      "gitBlobSha": "c72605e4199c1509212d27d9c1da96f9d20b3378"
     },
     "lucide-LICENSE.txt": {
       "bytes": 3208,
@@ -20540,23 +20540,23 @@
     },
     "plan/index.html": {
       "bytes": 29483,
-      "sha256": "8579f0af7ee388fc8d987b2432d8b93c0fc053c014230b9871bd721fc8326a64",
-      "gitBlobSha": "ce3400d03312e971d75067f0105e0dd4078e96e0"
+      "sha256": "0c3cade598ed130110499c4937946c77218b89dd9c1defa0ec2ef91a9789351a",
+      "gitBlobSha": "27b418a14ae319d0e90c2301841167f27bdf2c06"
     },
     "plan/index.txt": {
       "bytes": 18075,
-      "sha256": "f41cbbd1d568f823e870f4646f58125f5aa60567f79620186570cf50af649f3d",
-      "gitBlobSha": "d917680045a7e7a3841af40881e627c633fe2768"
+      "sha256": "8e75655ade1cd39da399de7bc765814f400fc92d29ab04a0302caa981d2026ba",
+      "gitBlobSha": "86f0d3cbe2470fe140742858c300bff35110974d"
     },
     "pricing/index.html": {
       "bytes": 28981,
-      "sha256": "e5764764b1d730fa5cd99c88452f838f34ead0c32362327512b92406bf5e58f3",
-      "gitBlobSha": "50c05d2c7e7114e2072c5a5175e13222ab1ecef4"
+      "sha256": "094a0d8d2edd40c82d89b71eadea01968c799b6dba64a1b418a1cf981948b37e",
+      "gitBlobSha": "76a28ff50b8735128c129d21b632638557d8d6b8"
     },
     "pricing/index.txt": {
       "bytes": 18171,
-      "sha256": "224cdafa97bb36df267a3d14c606813ce98240fdb9c78789d0d230bad8eb1cf1",
-      "gitBlobSha": "60a36a080b55567adbe8fab82f72cc2981826ec8"
+      "sha256": "0aa9189ef313fbccd54ea8a9c95213be4fad7b7d91479388c60e3a98c750f759",
+      "gitBlobSha": "1eb9ac8548eb57f65b9b5e19b5ac6f37f6cad8cd"
     },
     "question-bank/catalog.json": {
       "bytes": 2110638,
@@ -21320,13 +21320,13 @@
     },
     "question-bank/index.html": {
       "bytes": 29598,
-      "sha256": "199f8ac1efc9173c689b5bf90d52900a3b462f024be685be33eab7f086496c16",
-      "gitBlobSha": "53185c58c5f5f31df8d91f84465b14e1b4229c7d"
+      "sha256": "0adfce9edb147825afe11fe6063c13dc726e38e9737b29d4edcf6c1da2e77077",
+      "gitBlobSha": "f1b1c62cbabc5e458a16c99d232ec7072f441537"
     },
     "question-bank/index.txt": {
       "bytes": 18207,
-      "sha256": "905a87d703620e500aaa56f0e5ec1299fb74adda00c18c84f6fd9a7b2cf98add",
-      "gitBlobSha": "c87c71e8a6f9a375670ffdb4c18e506019256032"
+      "sha256": "ad28089217d8f1df9299dcb1f53482b4fd0a5a9b1aae8ef14ba7c699323dcbbe",
+      "gitBlobSha": "89f69d94400676cf14d3b8abb152a6c64a7b9ba1"
     },
     "question-bank/versions/1fdbca0672152eac5e00.json": {
       "bytes": 342460,
@@ -21355,53 +21355,53 @@
     },
     "questions/index.html": {
       "bytes": 29076,
-      "sha256": "be83e7e58e06b83df2dc37bd9ac8160def36eb4de30afc8c25a29c76e59aebb7",
-      "gitBlobSha": "7ecbfb826460e45a28c6697beebca04362cc7d72"
+      "sha256": "309811da345b5a4047b4c94cfbf16e28a8a22098df053e337958ee93cb70cae5",
+      "gitBlobSha": "adacb09748dd41da02c5e97a26b6f7f8af709fad"
     },
     "questions/index.txt": {
       "bytes": 17876,
-      "sha256": "78980f45eaf53e7f13f5fa5f3c06e53e928f0d7b46d64da0cdc05b0a3c27fc92",
-      "gitBlobSha": "c6bdf427afea39b925791029b249296228213fd0"
+      "sha256": "8053ae5700e22b331d4c5487889ba4772d3977ec1ceeecf59de312bed3d5b800",
+      "gitBlobSha": "5624bece6deb52b968d16633ee46895302693e29"
     },
     "references/index.html": {
       "bytes": 26252,
-      "sha256": "264b2f2106e194c78634fc761f3a02962ab4a6b589c14fdaed80bb207961f748",
-      "gitBlobSha": "b971b8f8decac3866496ac64110fbebf1183ebb4"
+      "sha256": "fa5c8a7dc22ea72bc0c696b767211c35aa2c84cc2f983ea8316365665da2a962",
+      "gitBlobSha": "073c72a058b14c395dbf5990c728e9b5f2457db3"
     },
     "references/index.txt": {
       "bytes": 16364,
-      "sha256": "c38823fdc29491de3e0999d3bb328d7f420a518370811fe8a12b4120e9a44db1",
-      "gitBlobSha": "beb5f2e5ea42b7d89e67998136f3847646ab0a71"
+      "sha256": "25f2978e5b23dee628b4323f07ff9df820422a79273e1e5f07681b37e22ccf41",
+      "gitBlobSha": "1e7e40febf00418d95aadecbcaa516ea79b45d48"
     },
     "resend-confirmation/index.html": {
       "bytes": 28349,
-      "sha256": "0b760cce03db3393104d0c04a55032362d3d43e6a098351965e2d9e334a328e8",
-      "gitBlobSha": "0ed033f98a36371afeac7219cdda1dc9799dfdd2"
+      "sha256": "f9cfb4e0e5f41fd562a7702b61dc378abdddc5d57ebb8702533c8eaf594f7947",
+      "gitBlobSha": "ec5c39e82ef70fd1cc9c548c65c223ec48916593"
     },
     "resend-confirmation/index.txt": {
       "bytes": 16759,
-      "sha256": "2fe0deb47f1bd351822db7b65dc6df1404a80658e666461096af59bbbdbb0470",
-      "gitBlobSha": "dc7caace9edd218c689200df4ebe71fd481dece6"
+      "sha256": "21da294239f09300a78831257b0637b64ec19c9d0719c6b8b789ebff486f47d4",
+      "gitBlobSha": "eaec975d3d4383f711b21ee830b8ad6003c6be7b"
     },
     "reset-password/index.html": {
       "bytes": 29074,
-      "sha256": "ef8f9836e08baede05b73bd8fd108ec5f34356227c0c51d71df49487b228b608",
-      "gitBlobSha": "694774788ddfa8d490b0c34fab7de3543813a478"
+      "sha256": "9ad48ce2833c3e9ab8f05864f3c9099faddc365bab1df65987c3bd4f9f36ca52",
+      "gitBlobSha": "12cdbeef71fe7269dbdd953f553ef8a3177eed83"
     },
     "reset-password/index.txt": {
       "bytes": 16734,
-      "sha256": "cf38d9e24f13f0ecfecae6572d2d5ffb18adb297c03d96a08df538d185b95629",
-      "gitBlobSha": "32573809ae94682891afa765ce46f777a9dab9f7"
+      "sha256": "9bf716981fed19bd26e9d8a610981bc04b74658c50b5d41aa0881866be974cc3",
+      "gitBlobSha": "cf8b39986f822ca8797372887d69573cb47ba024"
     },
     "resources/index.html": {
       "bytes": 26256,
-      "sha256": "29f1498b2b537bbabec48842249a96a6e2e7b160745561e42e4761395da082be",
-      "gitBlobSha": "2f0158d0a16117d858523d4b89c858fe47f17e0c"
+      "sha256": "1f3baa820fa16384e54a3e1217f649a754d566d2092bab2a10f2d34af003897d",
+      "gitBlobSha": "b675decdb30fab7ed05b5330b5296aaf1d5c3822"
     },
     "resources/index.txt": {
       "bytes": 16360,
-      "sha256": "bf03c480eceb55316a627152fab13001504810aa43ce82f131deae6d58223bcc",
-      "gitBlobSha": "b9d6fce5d09469e02752cc6213b6e5cfcebc5f81"
+      "sha256": "49be28c9e0f1761e94705bb8dba2ca39d3593d7971292f8676d185da2e135c19",
+      "gitBlobSha": "f2e2c5482ed05723741c6f770a45969964fd8011"
     },
     "robots.txt": {
       "bytes": 91,
@@ -21410,53 +21410,53 @@
     },
     "search/index.html": {
       "bytes": 28616,
-      "sha256": "3d350eafa3ec87a5d884efe55c83171460d4a60eef8a80117b67b4f18913ae5e",
-      "gitBlobSha": "2dfdd3c6bd16a49020adcd862679bb59c0f023c4"
+      "sha256": "0f7d17699d29588325375e91b464ad076b8209b1639e304380b3c97d37bb879e",
+      "gitBlobSha": "579d28035ee53413b703259d61690289befd48a9"
     },
     "search/index.txt": {
       "bytes": 16701,
-      "sha256": "8905a8b4239bef05939ee7ab0ade7f7510f10dd2d5861682cc7ead56ed6c2e33",
-      "gitBlobSha": "368d94a16e141d54e820104c1d8184a0db463f0b"
+      "sha256": "e5643d7f3e49ad864c5328f66f525b82675bb85139098dd7180f8fe71dff96de",
+      "gitBlobSha": "f17cde7c2b74de5b7132b4ce96de9aa4d4d4ce51"
     },
     "settings/index.html": {
       "bytes": 30088,
-      "sha256": "45378aa423cb30db657fbb36cd727a1f40afdc6e37d1335963b3f11580efb611",
-      "gitBlobSha": "7e79b8731dba9344961db4e00c305967a7f69a50"
+      "sha256": "8608c3eaf76dd791f4692fe5e0b68a9b9fabc42c1f0216499372269abf44d278",
+      "gitBlobSha": "31c7780aa25a4ad165819e44edf892535e668455"
     },
     "settings/index.txt": {
       "bytes": 18436,
-      "sha256": "152b1dfc6ca0ebf18ef29d51f70f4c6aa0e3a48e0c3888e972b8139844c33161",
-      "gitBlobSha": "5078ec2cb70b1cf2e4cd00455585d7f4c7484e7f"
+      "sha256": "e1512a075402b908ec435a5ad3579dfc8d7658c1206ef6fb78e3e5a730672c1c",
+      "gitBlobSha": "ecb6be24e8239f8c7b152f40d328a121a7e56f80"
     },
     "settings/question-bank/index.html": {
       "bytes": 29747,
-      "sha256": "5f5ca09d9442a2dbdad43ae359a693987e28cda893321184be0f9d646228d8dc",
-      "gitBlobSha": "9186464214eee54b62e4d64f75f99ee141bc7ca9"
+      "sha256": "94a09830fb89d3a93f94fabce900b223d8d1683001636848e67063fdb33912e7",
+      "gitBlobSha": "f456857c47bd2f1e183290be8ddbd30cc082519b"
     },
     "settings/question-bank/index.txt": {
       "bytes": 18447,
-      "sha256": "4c2183406d74f708c158ac85479cc5cad7cdde31336e56aab8d1d316f6e54ec8",
-      "gitBlobSha": "7da2633b53e52385069d82d8a1c9ca03614e9c5e"
+      "sha256": "647f09b6d6ea42464252af0ec2fc626992329448ae90c358e35e85952dbf4fb2",
+      "gitBlobSha": "87d8c1ba0f08ea432588cf1ab005ae01645e213c"
     },
     "sign-in/index.html": {
       "bytes": 29125,
-      "sha256": "b9c88ca126293c16f09285424d28f003e658162b37d5ef53e21d65deddb9fc51",
-      "gitBlobSha": "18cf3e762bcfd2a5fd378a7b7a74db6f92cfdf91"
+      "sha256": "66fc79f9b5ad1a353e18e6fdbee81978930afb0abfd0a28182e0b6f8afd9cb5f",
+      "gitBlobSha": "4635f51ae287470f7189a915682d331debe17ad9"
     },
     "sign-in/index.txt": {
       "bytes": 16699,
-      "sha256": "daead5bf962fdc07fc2bfc3ba343216bf4cd9461b1e8a53be2f8cb1c86852439",
-      "gitBlobSha": "cb953534527b73766e7e1d1b59ed051bad967f95"
+      "sha256": "877d461ff5abf59f3258daeb8a3a64cb5b8b801fb7841b782d45a1599cf2a9be",
+      "gitBlobSha": "ce59695361c92b69f13c09a5f92e40bee8f7f0c9"
     },
     "sign-up/index.html": {
       "bytes": 29401,
-      "sha256": "09351515fbcd4734a2731f9c7ac5ce8dd31d609eb13402c5f07786c2a0baadce",
-      "gitBlobSha": "e32b454a2e133dd811894fe652f136692cb042a8"
+      "sha256": "51693107210975e878ab70686e3e3daa144085c3e45330e8cdee33d1eb1d1cb4",
+      "gitBlobSha": "0f57e95da9f66f69ae17c829f6b99a4658125e02"
     },
     "sign-up/index.txt": {
       "bytes": 16699,
-      "sha256": "e12a10463cd1cbeece56cde6bf55d8f9cb696d0bdbe657c17236e4ebfe46db59",
-      "gitBlobSha": "2da04b9d65c97e49f62f54652f0d7a334442ab52"
+      "sha256": "a07f4bb4d5a081114a6ac09632b32f4c1a707c7b15bbd80654ece96f2cd244dd",
+      "gitBlobSha": "b4b397e0d8e913d8efbe993808267b61863ee133"
     },
     "sitemap.xml": {
       "bytes": 1989,
@@ -21465,23 +21465,23 @@
     },
     "sources/index.html": {
       "bytes": 26237,
-      "sha256": "c6e61fe3a3c8ae3d8a962753bdec99f15b8813e6f8a3cd1ffd39dd6e85ddb78c",
-      "gitBlobSha": "6d592760ff354df18037080d4eab7ba18cbfa8dd"
+      "sha256": "b6a1cea71001dd6eb8bb7b9b658477b3caa4e39f8b6158411f0ec8f91dc7f990",
+      "gitBlobSha": "e0975b7e466fa9d504b081ecfacffde6883f35d4"
     },
     "sources/index.txt": {
       "bytes": 16352,
-      "sha256": "89c094b379c28a02cfa150fb235a50c8633f73803fb8a7b05311326cf4c0fc6f",
-      "gitBlobSha": "6ed264b9b8249379abd7cb32eb7f3ab7ccf084a6"
+      "sha256": "159c24e316d1f79538d8107da3f1c0afc9516f5dba5ac35d900399d3e8cf7f97",
+      "gitBlobSha": "4e51f2fd10e01e0f9454b75aa8745177cd4859de"
     },
     "study/index.html": {
       "bytes": 26397,
-      "sha256": "b21d5c54e4ff2fafcf880c6b73f819eac7edbef079cb27cae0e9e6a472be545c",
-      "gitBlobSha": "81d71fca984c4a72271f33360a0970e47bedbe88"
+      "sha256": "cd557d22d8d952bb45ac3d7e93a3220fba9f768c525e128be7d73fdc3d8a42eb",
+      "gitBlobSha": "12f28c50969570dab81b272d89b327006d1c342b"
     },
     "study/index.txt": {
       "bytes": 16392,
-      "sha256": "acca09d9f0b0b356ea007651afda163a2e05b80ce5faf7ba2ca3c35ca8de835d",
-      "gitBlobSha": "c37b6052ccbf529c009fbe50026198733eb8fe3d"
+      "sha256": "63d49e9f3035df8313ccaa67370d46c3c9686e9b0b8bc73c9f4f2dc6c9a6c4ea",
+      "gitBlobSha": "29779df074b05df23b52cc7aa480ce864e14793c"
     },
     "studywell-icon.svg": {
       "bytes": 493,
@@ -21490,203 +21490,203 @@
     },
     "subjects/biochemistry/index.html": {
       "bytes": 43733,
-      "sha256": "8afe9a820539b4fa3abe2a9edfdacb46d86bb5b35a336d7eb872c6f23997c703",
-      "gitBlobSha": "405550553c85aa98941f0826af65ae802b4d3e4c"
+      "sha256": "3465e65517da4b80fc6e5912953b44a8a758a84549d3a191d59ca1b5b85d8d98",
+      "gitBlobSha": "d487f96ac51d81f2929eec7e1e67bdf2d5fd6ed7"
     },
     "subjects/biochemistry/index.txt": {
       "bytes": 25779,
-      "sha256": "8204e6b2311a6032f0f849a623666fe59086994c1727251888cc660ca336d93a",
-      "gitBlobSha": "3350c1370eaad9a3c12dcfcd182f5e70ab4f104a"
+      "sha256": "1b47fd4db6be3f90a4dfa5851283b05489d93722bda583c06700e06459b280d2",
+      "gitBlobSha": "3e9cf7ea23d0c6a2188fccc48b9ba2b537ab668a"
     },
     "subjects/biostatistics/index.html": {
       "bytes": 37804,
-      "sha256": "69de2dd23012cf3aaee03bb91dc8e3de5feb007be9a36568ccd6e7a3d77da5d1",
-      "gitBlobSha": "5c4181ffb4755fc2e3f8248124f00cb38deeb845"
+      "sha256": "de9655477333bb999d9ada3983157f7310df56e610619e68b7893b18fc74d454",
+      "gitBlobSha": "333344804f338161e10238f25a4b96f662cb7766"
     },
     "subjects/biostatistics/index.txt": {
       "bytes": 22652,
-      "sha256": "37eda92ce0d5e5917ea9a4a183a663b43c2c7f992f7e0bced80c77541a7544b8",
-      "gitBlobSha": "ad5b8f62856cb4cc9a81f1f8c2da65622e938969"
+      "sha256": "7b2f5e4513899635ddcc38ec058309135009c2607007ae60252aff6b98121ece",
+      "gitBlobSha": "35df34cec1a30c02a8757e539d98d274e7c4c817"
     },
     "subjects/cardiovascular/index.html": {
       "bytes": 47582,
-      "sha256": "24e4cd638d3d09889181fb183ed4fc08dc4bb7b5d5e7623405641de1f0c8cdde",
-      "gitBlobSha": "d09d025b9d7200b39ecd5fe6e993c11b5e356f62"
+      "sha256": "e1e5cea9c4fc8858541d1ea0324b2a37cbf53220469d8cf99e4d6868fc648f5e",
+      "gitBlobSha": "3a0a0dd52201ba85756c15bd6cd27abb76499100"
     },
     "subjects/cardiovascular/index.txt": {
       "bytes": 27805,
-      "sha256": "1aa0f6c048f03d6d8481b89a47185f9b29c38b7409748143b6c03206e59013e1",
-      "gitBlobSha": "098069d09d88ea9c517a379b97e66b44aead8fa9"
+      "sha256": "c58dedb2ce42bd291172e03bf3c52d3f373e9abe2069faeb24dbf1f6f5723c05",
+      "gitBlobSha": "c6ea9c3a677b24d95285b251c716939a835aed3d"
     },
     "subjects/endocrine/index.html": {
       "bytes": 38241,
-      "sha256": "6e7244c7722cb971edf5f3d0e74acaf4eeb9c03fc06597672922913508924ff2",
-      "gitBlobSha": "b4290a20f0f4193cfc4888fed9720f463a7bc9c8"
+      "sha256": "6b3d7643db8b0e93040aead9030d3b3f15a89647e15c638ac944e6c9aae5565d",
+      "gitBlobSha": "e637b80e404e37c899438c06616632fe5ad2ba76"
     },
     "subjects/endocrine/index.txt": {
       "bytes": 22858,
-      "sha256": "62edee32e8579e7f4afc3c3aa24df3d5a11cc31a23fde53137c7de5f7c646160",
-      "gitBlobSha": "6337b3f776b441f2d1616dad239a1837d234228b"
+      "sha256": "476b1e3fda82149c53171e1ff06085238fb5286c41d9043a6d54bcdcd7a1168e",
+      "gitBlobSha": "73ffaa88cf4259c07f6da3516298ca17662535e0"
     },
     "subjects/gastrointestinal/index.html": {
       "bytes": 43567,
-      "sha256": "eda28485e4b46276983ab79923c371b8efb8708c504ae850f40581a5b5ede5c9",
-      "gitBlobSha": "60a4b681090aa8ce0ae87fd28c7fee28718f2843"
+      "sha256": "fdcc993d4278b10029702f5e2d97317d5043de6e27c227889bee56a572a439f0",
+      "gitBlobSha": "63552d8254c12701043711c1eafa018166236f65"
     },
     "subjects/gastrointestinal/index.txt": {
       "bytes": 25723,
-      "sha256": "f3506d2d9e8e7d15133c099c91904c6a88699fb2c17151d3f3450a4be8e13f41",
-      "gitBlobSha": "719084ba83120839e7b66791c78cf03de074760f"
+      "sha256": "000ecaa2a8c4e15fba55019e033d2799036289c2d2f7d91cf59cbcac6612a73a",
+      "gitBlobSha": "32f073c461112a59aa3d124b1fadb6ff0b34280d"
     },
     "subjects/general-pathology/index.html": {
       "bytes": 39721,
-      "sha256": "a6fd19c3b312dd783bda6e10d866967c11ddc65ed95760132f0426e67bc73e28",
-      "gitBlobSha": "31fc04893a07084f1b01e9b2a6c33f43629130b9"
+      "sha256": "a1222e05b1f1d0bc2a0296935c53dd0b0d1c3e95a14d3967559c0c2ef789571b",
+      "gitBlobSha": "35bbff8f8dfad70db86e0ebc1b26298701b5bb1d"
     },
     "subjects/general-pathology/index.txt": {
       "bytes": 23709,
-      "sha256": "39bb0a5f86efe9c4bd2fe2cd6dd43093d02465b8957c027bd966734c0acf7e49",
-      "gitBlobSha": "a61f64e46f0c9323c6ac17d8f04c726710840f1a"
+      "sha256": "09d63fdefb7baadd10ee51a0bfe07407c480a88f05bdcef976f4c71cb93c0a1d",
+      "gitBlobSha": "f03dd70c2342fe63a5ce9d4278d83963b6465137"
     },
     "subjects/general-pharmacology/index.html": {
       "bytes": 37548,
-      "sha256": "5933d1cbc210e07ec0f66212197c5dd17a49e0cb0e3dd87465f09df639d1d221",
-      "gitBlobSha": "e30a7fa17497661f5dae5d6c5632fedf4a496508"
+      "sha256": "5bc56c4307f042eb11dd4f0b7bd880d05d2e267e10307b581d3979cdf8225fdb",
+      "gitBlobSha": "c38c77f5af78b1dd939415a925f9136869d06361"
     },
     "subjects/general-pharmacology/index.txt": {
       "bytes": 22546,
-      "sha256": "943304064972a2697002dde95ac1b3be64ce73c6a9cd46b3620423c6ebf90256",
-      "gitBlobSha": "f37c47048f24895cf84ec41cece87d2e66a0ab54"
+      "sha256": "13a6394e1872ab2e64ba52499170d0542a569fd613d2ccf585ff76daaacd2098",
+      "gitBlobSha": "5cf52a04b07ea6c5540750d93fdb7b55f656ff7e"
     },
     "subjects/hematology/index.html": {
       "bytes": 42973,
-      "sha256": "c17538e0991718e859d17571faf6dbaa6eaa38c674cc7e9917e8eb7f540d1aec",
-      "gitBlobSha": "9f85e3f563d914931fa4338d92ae6cd062ee4594"
+      "sha256": "174e18404421f0d4c8f2219b48e585bcf704a439c1c7f5a41a9a6c578e34b70d",
+      "gitBlobSha": "98ff8bfacc6d5efe59394ab3395ad10eddd44e01"
     },
     "subjects/hematology/index.txt": {
       "bytes": 25389,
-      "sha256": "3a898fc3cd41a8cdf572cb3b210c8db0e74a9210a920bdd83b068cb96d12551d",
-      "gitBlobSha": "d8c64e8eb62a88e00683f3a5bf89608970b8c9dd"
+      "sha256": "ee161bf075b8fe1e17e1e435be0e024b9730cce1fdbdcf36062d8bae77f04a18",
+      "gitBlobSha": "11d173cf2a95761864615b0f4d510286c15eeec1"
     },
     "subjects/immunology/index.html": {
       "bytes": 37646,
-      "sha256": "300e80f91fa61fd60b07724fb569829e2aa24ba51f515731e2c981c7a4295138",
-      "gitBlobSha": "9dadc5124cc2e4d3470c01fea8421d0c04b20e8c"
+      "sha256": "7f45d11518e29a0457f2673a8e78ef8e8b9ae24d263d048ec15551a3e6324e71",
+      "gitBlobSha": "dc5f7e0f8e075783413e463c1b7df0d731cfaf67"
     },
     "subjects/immunology/index.txt": {
       "bytes": 22570,
-      "sha256": "0e572bd9d40350ded9cd1420aefe3332e93454dc7fab69c8a8abac629012410c",
-      "gitBlobSha": "d60ed454516a61070b656370f4fdd5d1e4fb659d"
+      "sha256": "bbefb0420329dfed363806e7d3f2b85249d9caf9343f3d6b9b57bc8fd6dec8eb",
+      "gitBlobSha": "fc9024a673be5742228270306f56008b66d97ebc"
     },
     "subjects/index.html": {
       "bytes": 39074,
-      "sha256": "dc9a7f2acea8fc51a5f10af446e90640b46a33a675e231951108b710c20e1717",
-      "gitBlobSha": "c79a1a95105621e47e37671f27b9c8bcf2c7bf9c"
+      "sha256": "b6e8816576389b7eef80f8c2120b221ca9485a67cd25cdbb7d1dabca7391ecfb",
+      "gitBlobSha": "6e29781d40138989bb5aacb5952c9d6b77d33724"
     },
     "subjects/index.txt": {
       "bytes": 23364,
-      "sha256": "591e676702781afa370833e5ee8840f367f8d0e82fb5c6b5cc091cee381c1229",
-      "gitBlobSha": "f2e61986ac4ee9573b7fb10e6bcc5a77a8db3dfb"
+      "sha256": "244f191732a20ce2e361d23ded5c73c781d3da5ae9ffc095a97c2060934dcdc2",
+      "gitBlobSha": "7f18ffe47b70804004a57a8fe0970c232a2c8dd8"
     },
     "subjects/microbiology/index.html": {
       "bytes": 45862,
-      "sha256": "8489d46ac2688a7e82933afafa4ff14e699714ea657d9a28f6c2dc3ff47402a6",
-      "gitBlobSha": "8895eb36ba50ee9ae1fa6b6781a822bc591d7cd9"
+      "sha256": "ca63ae994fd5c3fe246872b95810fed309718a5eba4afde430cc1e4ec7f97971",
+      "gitBlobSha": "1a6f57c69aaf63452f25bab3b698a4a695b52089"
     },
     "subjects/microbiology/index.txt": {
       "bytes": 26955,
-      "sha256": "19dc3b0f37dfcc3dcd022cc44e83e8a8e44d08c76fca3a7ce7b8bb3a292ec581",
-      "gitBlobSha": "08e333424cfb1cf69454fea35522be1e81147e76"
+      "sha256": "5f0f431dfa2ede94f12648db43bae2b07f61d3ef12ba16cb25e15684be44ca9c",
+      "gitBlobSha": "06926b93e04928df65578d22b4c334cb5b63a7d3"
     },
     "subjects/musculoskeletal/index.html": {
       "bytes": 43455,
-      "sha256": "7547c930d26945d10508c2063fb3545b20fbe5e6270324c67873472c907843d6",
-      "gitBlobSha": "381b1c3d94b20149a696f5e08f2e2c78a3a49bd9"
+      "sha256": "21c3a02fa1fd6b59658098212fad2b993c1d45dcaba8a3b97a52f8fe44f6f850",
+      "gitBlobSha": "87d12a0949e859e6e2201ff8ac9d83e94ce55d0e"
     },
     "subjects/musculoskeletal/index.txt": {
       "bytes": 25644,
-      "sha256": "be80a0d24fb3c273c5de513bbf03dfe32d426f398211326e46fb8bd253f5fa26",
-      "gitBlobSha": "37c98e4bfd9fa30c3f0c2cc5adfea57dc5597ed5"
+      "sha256": "676ee0658266d91a10ddff9201525627238e9968473412d0313cee6909fd312c",
+      "gitBlobSha": "eaf574ca27b64008c53f59eb5df40e820f42f6cd"
     },
     "subjects/neurology/index.html": {
       "bytes": 47540,
-      "sha256": "e3a04844edaaa95ef0db7534ec23e7969e3b6aaf7e084e5f53e3ff0ce76eb8f3",
-      "gitBlobSha": "65073e9f9811f5e715729ab8bbfecd3d0e9745e1"
+      "sha256": "9a49ccd3d72881f83b43c6114268478ece2b0467f747638894322b31a514a51d",
+      "gitBlobSha": "0f445fe1fd8ec902c82a82d2dfbdd95077708356"
     },
     "subjects/neurology/index.txt": {
       "bytes": 27787,
-      "sha256": "f2b36410a42eecbf78d625ea4c0f65b50d39d7869d14f3c19849af35f85d80ee",
-      "gitBlobSha": "4fc8cc69223c361d034c6d4257b56e6157864307"
+      "sha256": "ffe04bc3aa56461d666678033bf02d5ec52a4deedbf5de04f715a007f14fabbf",
+      "gitBlobSha": "83a55e910b002de095b435f0c24921097c8e2c63"
     },
     "subjects/psychiatry/index.html": {
       "bytes": 40476,
-      "sha256": "85b439ffcc5069ac5232a3f79e40abde17733c3f527d58c3328ffb07755ed7cb",
-      "gitBlobSha": "aa70ff5b96aea9dc1bcf1f2ae5af7e0f2bb3993e"
+      "sha256": "4772bc245e07528ac8b42d0518a8c52bdac42b489c07693f167cfc03e050becc",
+      "gitBlobSha": "d50a48f10bfc2325ae921093ed0ebe90111c2910"
     },
     "subjects/psychiatry/index.txt": {
       "bytes": 24033,
-      "sha256": "edd19c179a861d9e0e5cf1853d5a02f8ba5adf441edf917415dae7dedcedab7b",
-      "gitBlobSha": "ae17ff3d04bde7d43b2bb7d35d13db74e31b64b0"
+      "sha256": "3d50d571a386eb7b2047f024be3b75daeee02b319cc618404d9b732f4cb7c1a4",
+      "gitBlobSha": "928d915993b67f9a3edf15e924c8b53e7dc12b60"
     },
     "subjects/renal/index.html": {
       "bytes": 39319,
-      "sha256": "3826f27a28e6b73fc01031dcb4083409f1ad00bc4f99278aa318857bb157aa3f",
-      "gitBlobSha": "ed6a04f8eb7a70c52f11a7ed03d8397921bcf0dc"
+      "sha256": "bd3e48a3cd2a1c1f3b3aa7e86f651704574ca9b8ed1acb8efcb2be9e2f746b25",
+      "gitBlobSha": "131409c0cdace858e727abf555d5d2d46a445cb0"
     },
     "subjects/renal/index.txt": {
       "bytes": 23413,
-      "sha256": "8eec139de391aee1cc6ff46c7d918c3e4dfef7093aec4d68ea9d9d59b0e15f0f",
-      "gitBlobSha": "c26e54db95e45ff10ec74d75fd4fa9c2698ab783"
+      "sha256": "c04b3c13bae089c2863c0bba3f7d064b5ba168dde61dfb51264c9fa38e24d23b",
+      "gitBlobSha": "44cbb5ec3d9870cdbbddd66c8cb5df22510e318e"
     },
     "subjects/reproductive/index.html": {
       "bytes": 44614,
-      "sha256": "481be6a7e583315ad343bbde2840a78af8fd26c050c0415e1892af982b03bfb0",
-      "gitBlobSha": "2fcc6aada769b3764c9a234607859fe4ef942b2c"
+      "sha256": "b190b0082f732e26b48468fa70171e31d667adcd82faa6ba3860f73b22cc3f3f",
+      "gitBlobSha": "ac1a2b4f6b77a27c1f58570390be0cf0ee48964a"
     },
     "subjects/reproductive/index.txt": {
       "bytes": 26270,
-      "sha256": "a2c96c97b6da24eaf99e4cc34cfa9c7fcadde3f3ad70bd81a64b69f6b76f1163",
-      "gitBlobSha": "9b2371224c1f2918ac551ef4bb2b9fc5a1f596e2"
+      "sha256": "8ad13b7e88715add21ec64de46276982609d1e1a3ce3ebe70170cd2e94924f67",
+      "gitBlobSha": "7dffd73e6e33e31f0b53ecef9f77ea38b2ea9dcc"
     },
     "subjects/respiratory/index.html": {
       "bytes": 40657,
-      "sha256": "8c219839c73af0b5a82ccddec4dccd39fc21501f91868f13df59dc1b79b36844",
-      "gitBlobSha": "98ef584b91e842541713415956887ddd7d1f0106"
+      "sha256": "caf975ec1e2c40e3c180b133c57145bb8608b9c7ee562757e87aa1ea56175bdc",
+      "gitBlobSha": "5a77fb1b6d7f67674c64cb1993e72fbd7b843235"
     },
     "subjects/respiratory/index.txt": {
       "bytes": 24178,
-      "sha256": "60403d630f13f52896918aa8a90b0e0378ea43435691219d57a537a21ada47cb",
-      "gitBlobSha": "8d1813e43f52ed8b0f3b9950122b4ec71345048d"
+      "sha256": "963aeb78d34a9c110a32067c1c96b3e422da34a93c3eab6de3084c1eba19c074",
+      "gitBlobSha": "bd2ca9ca5943c78d38374149ca536f551b8e8ec5"
     },
     "team/index.html": {
       "bytes": 30265,
-      "sha256": "0a5277b9299639bbda6ee592ecedd2291effa37910f4b21f961d179c7aeeaf5b",
-      "gitBlobSha": "a1a2da36e34c3234e6463a7257306afde05df094"
+      "sha256": "705e08c6da2d11f56f842c57c87a92b362f50620091938f3e6ffc34cb7b71f6f",
+      "gitBlobSha": "b1dd217f9cd3eed38e9f61f9561c6fa001599f9c"
     },
     "team/index.txt": {
       "bytes": 18515,
-      "sha256": "7aa68fda76e22435ea1e85f8c1cda5052dd322c54884c82d3eee4efc8d85f3ff",
-      "gitBlobSha": "2f3dcc24e743e2da8b23a59e3172db8a9d1b005e"
+      "sha256": "ce5e4c9ad1d1abcbcd94942a9aef41fdca9a85d38324d40d275dee2b4d9f06a5",
+      "gitBlobSha": "c360737799435dd04ade61656af0e67a615cd95c"
     },
     "telegram/help/index.html": {
       "bytes": 28777,
-      "sha256": "933d69ed8c960f4daa341de380efd91a8fcc1647e57c433b7c9e3c009f35961c",
-      "gitBlobSha": "df9c5f8e6bab32b82b8196cc9e1e8c1fc9553b1b"
+      "sha256": "0f8acca89a1d8d3dc781a999872c72f3b449f8a20aab69655b50e945be45b154",
+      "gitBlobSha": "7b726a3131dcd40a7e7ed5e5e242c183b87a0bbd"
     },
     "telegram/help/index.txt": {
       "bytes": 17872,
-      "sha256": "e50531d85b58fb87a42210632cb0c1ef9ebfc9d19e120752148ce18b1c812fba",
-      "gitBlobSha": "d2157b249b87f0427819c0019fae3702b764cfcb"
+      "sha256": "a05f62ded7111189f611b1622896eecadf0ea526226d713cb84d9997a2973fae",
+      "gitBlobSha": "2aced537f488deeb143aeb6b926ceebbfddead8f"
     },
     "telegram/index.html": {
       "bytes": 28443,
-      "sha256": "80cbfdd149e7012b4a81cd4718728c85709dbef989af8c8c4d18aae52bb0d78f",
-      "gitBlobSha": "448ac4dd7d5e93c1a47b391eb7b34184b0488a93"
+      "sha256": "d2268051ff78713a77edb200f3a52d5014bf4ba7348c0aee5291cea93b346c65",
+      "gitBlobSha": "01b8359b8d457c8a5ea3e941211600b0469507de"
     },
     "telegram/index.txt": {
       "bytes": 17511,
-      "sha256": "441f175507974354750db90e51b71ffa841a5a6a5b42d73a9ba9d5fa5b67add1",
-      "gitBlobSha": "4e366d44c1d9463189b0be26d4955dc1aa376877"
+      "sha256": "3967da206fd8e56908e8276624987acd2b03009670e3ca962e1905d9c30082b7",
+      "gitBlobSha": "bee749d77a373dd55b3a123ab9e4be9a203b3033"
     },
     "vercel.json": {
       "bytes": 50,
@@ -21695,13 +21695,13 @@
     },
     "waitlist/index.html": {
       "bytes": 34108,
-      "sha256": "70beb67f94a511928e898012133078b5ab371f2a257becb7f0b252d68f4fec42",
-      "gitBlobSha": "06682e8fe11595915a01768e377fb90bd8fc2218"
+      "sha256": "5c128d976fe1fb5216f2716f65867100feb638d4d4ff735c7f153747d4cccddd",
+      "gitBlobSha": "d3dd1c63e1b8e537e1ab71124a6e469ba2586c93"
     },
     "waitlist/index.txt": {
       "bytes": 20552,
-      "sha256": "f11bf5bd4562d2d3131af4cf0e8f5782666a81f6b46a9cee2b3d5fc72174ba38",
-      "gitBlobSha": "a1988d0e611f6468c2f650a9621d782ed0097a36"
+      "sha256": "4dd69bdd0ea095d83fbb2a8d0a84818215369fc1a8ec254f38aba521e28f8d53",
+      "gitBlobSha": "a989f67bae9f51e87e44ba6e1ae8ce8938354bc7"
     }
   }
 }

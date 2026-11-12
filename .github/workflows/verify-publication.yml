@@ -54,3 +54,32 @@ jobs:
               print('Waiting for Pages/CDN:',str(error))
               time.sleep(10)
           PY
+      - name: Install browser verification dependency
+        run: python3 -m pip install playwright==1.62.0
+      - name: Verify published sidebar geometry
+        run: |
+          python3 - <<'PY'
+          import json
+          from playwright.sync_api import sync_playwright,expect
+          from pathlib import Path
+          revision=json.loads(Path('deployment.json').read_text())['sourceRevision']
+          base='https://ahmadatyat.github.io/usmle-study-site/'
+          with sync_playwright() as p:
+            browser=p.chromium.launch(executable_path='/usr/bin/google-chrome',args=['--no-sandbox'])
+            for theme in ['dark','light']:
+              context=browser.new_context(viewport={'width':1910,'height':954},reduced_motion='reduce')
+              context.add_init_script(f"localStorage.setItem('studywell-sidebar-collapsed','1');localStorage.setItem('studywell-theme','{theme}')")
+              context.route('**/auth/v1/**',lambda route:route.abort())
+              context.route('**/rest/v1/**',lambda route:route.abort())
+              page=context.new_page()
+              for route in ['calendar','dashboard','library','settings']:
+                page.goto(base+route+'/?verify='+revision,wait_until='networkidle',timeout=90000)
+                expect(page.locator('[data-study-shell]')).to_be_visible(timeout=30000)
+                for width in [801,1024,1440,1910]:
+                  page.set_viewport_size({'width':width,'height':954})
+                  data=page.locator('[data-study-shell]').evaluate('e=>{const s=e.querySelector("#study-sidebar").getBoundingClientRect(),m=e.querySelector("#main-content").getBoundingClientRect();return {sidebar:s.width,right:s.right,main:m.x,width:m.width}}')
+                  assert data['sidebar']==68 and data['main']>data['right'] and data['width']>width*.5,(theme,route,width,data)
+              context.close()
+            browser.close()
+          print('Verified live sidebar layout in both themes, four routes and four desktop widths.')
+          PY
