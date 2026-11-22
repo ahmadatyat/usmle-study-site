@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[1958],{51958:(e,s,n)=>{n.r(s),n.d(s,{PaymentWindow:()=>l});var c=n(80997),i=n(45769);function l(e){let{buttonLabel:s="Access details"}=e;return(0,c.jsxs)(i.A,{href:"/billing",children:[s," →"]})}}}]);
